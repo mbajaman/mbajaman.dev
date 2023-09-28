@@ -1,15 +1,17 @@
-import logo from './logo.svg';
-import './App.css';
+import Navbar from "./components/NavBar/navbar";
+import Intro from "./components/Intro/intro";
+import Skills from "./components/Skills/skills";
+import Works from "./components/Works/works";
+import Footer from "./components/Footer/footer";
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          🛠 Tightening screws and twisting knots 🛠
-        </p>
-      </header>
+      <Navbar />
+      <Intro />
+      <Skills />
+      <Works />
+      <Footer />
     </div>
   );
 }
