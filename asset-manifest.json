@@ -1,23 +1,28 @@
 {
   "files": {
-    "main.css": "/static/css/main.7c6d5769.css",
-    "main.js": "/static/js/main.7bbb310a.js",
+    "main.css": "/static/css/main.a88c2576.css",
+    "main.js": "/static/js/main.cdd6d439.js",
     "static/js/453.06754d29.chunk.js": "/static/js/453.06754d29.chunk.js",
+    "static/media/profile.jpg": "/static/media/profile.1c0457b30bcac0fc920f.jpg",
     "static/media/work.gif": "/static/media/work.bdf392222a6a3f2fc027.gif",
+    "static/media/wr_lol.png": "/static/media/wr_lol.3fe76d3bcc099c90a099.png",
+    "static/media/gamepad.svg": "/static/media/gamepad.6b25b64a19e20e9a52cf50aa21e802e5.svg",
+    "static/media/bado.svg": "/static/media/bado.65d818924500eada1eb9e0072de30229.svg",
+    "static/media/esports.svg": "/static/media/esports.3ae92f4a48414d52499d490d945d6026.svg",
     "static/media/itchio.svg": "/static/media/itchio.e06a0771d940eea6757d930aaa5cffe2.svg",
     "static/media/github.svg": "/static/media/github.5f99856c6db4b866df002ed05980d672.svg",
-    "static/media/www.svg": "/static/media/www.6f8506456ad14d5d3a5d05233516394e.svg",
     "index.html": "/index.html",
+    "static/media/www.svg": "/static/media/www.6f8506456ad14d5d3a5d05233516394e.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.566bbcbeea50b3c2739a65f8aab3689e.svg",
     "static/media/game-icon.svg": "/static/media/game-icon.09340fcd5dfaddd050ce92d573e4917c.svg",
     "static/media/server-icon.svg": "/static/media/server-icon.7c46282979244cca744f6b2da61198f5.svg",
     "static/media/ui-icon.svg": "/static/media/ui-icon.682cf72ea58cf8d581baca4ae540e6c3.svg",
-    "main.7c6d5769.css.map": "/static/css/main.7c6d5769.css.map",
-    "main.7bbb310a.js.map": "/static/js/main.7bbb310a.js.map",
+    "main.a88c2576.css.map": "/static/css/main.a88c2576.css.map",
+    "main.cdd6d439.js.map": "/static/js/main.cdd6d439.js.map",
     "453.06754d29.chunk.js.map": "/static/js/453.06754d29.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7c6d5769.css",
-    "static/js/main.7bbb310a.js"
+    "static/css/main.a88c2576.css",
+    "static/js/main.cdd6d439.js"
   ]
 }
