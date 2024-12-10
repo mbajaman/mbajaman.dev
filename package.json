@@ -1,7 +1,7 @@
 {
   "name": "mb-dev",
   "version": "1.0.0",
-  "homepage": "%REACT_APP_HOMEPAGE%",
+  "homepage": "https://staging.mbajaman.dev",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^6.4.5",
@@ -15,8 +15,8 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy:prod": "cross-env REACT_APP_HOMEPAGE=https://mbajaman.dev node scripts/set-cname.js && npm run build",
-    "predeploy:staging": "cross-env REACT_APP_HOMEPAGE=https://staging.mbajaman.dev node scripts/set-cname.js && npm run build",
+    "predeploy:prod": "node scripts/set-homepage.js prod && node scripts/set-cname.js && npm run build",
+    "predeploy:staging": "node scripts/set-homepage.js staging && node scripts/set-cname.js && npm run build",
     "deploy:prod": "gh-pages -d build -b gh-pages",
     "deploy:staging": "gh-pages -d build -r https://github.com/mbajaman/staging-mbajaman.dev.git -b gh-pages",
     "start": "react-scripts start",
