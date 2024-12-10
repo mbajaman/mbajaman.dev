@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.50136408.css",
-    "main.js": "/static/js/main.c6dd334a.js",
+    "main.css": "/static/css/main.8b3308cb.css",
+    "main.js": "/static/js/main.a1d321f3.js",
     "static/js/453.81a0e1db.chunk.js": "/static/js/453.81a0e1db.chunk.js",
     "static/media/illume-logo.png": "/static/media/illume-logo.6ed295d9a7735fa6d2c1.png",
     "static/media/fb-lvl1.png": "/static/media/fb-lvl1.560d2a11251ffdccfbb4.png",
@@ -29,26 +29,34 @@
     "static/media/sad-3.png": "/static/media/sad-3.dbdac53095514e8516ee.png",
     "static/media/sad-2.png": "/static/media/sad-2.b15a181b89db68524823.png",
     "static/media/sad-4.png": "/static/media/sad-4.ae054676bf583148ab0f.png",
+    "static/media/flag_sa.svg": "/static/media/flag_sa.c7a5f6793d0afa46f4c4e4a4eae86115.svg",
+    "static/media/flag_us.svg": "/static/media/flag_us.65b9fb1a40d8e94a1b0a8600487da3ad.svg",
     "static/media/wr_lol.png": "/static/media/wr_lol.3fe76d3bcc099c90a099.png",
     "static/media/gamepad.svg": "/static/media/gamepad.64d83d7d94ed31004c8767b362cadac7.svg",
+    "static/media/travel.svg": "/static/media/travel.1083d1290f51a6e123d9d8beb2703342.svg",
     "static/media/bado.svg": "/static/media/bado.65d818924500eada1eb9e0072de30229.svg",
     "static/media/esports.svg": "/static/media/esports.3ae92f4a48414d52499d490d945d6026.svg",
+    "static/media/flag_in.svg": "/static/media/flag_in.f1392c76f9306f0347708164f7ab0498.svg",
     "static/media/itchio.svg": "/static/media/itchio.e06a0771d940eea6757d930aaa5cffe2.svg",
     "static/media/github.svg": "/static/media/github.5f99856c6db4b866df002ed05980d672.svg",
     "index.html": "/index.html",
+    "static/media/flag_ca.svg": "/static/media/flag_ca.c66522d6510e6eff098d.svg",
     "static/media/youtube.svg": "/static/media/youtube.2599dac007424ad064d056e5df67d2a0.svg",
+    "static/media/flag_be.svg": "/static/media/flag_be.6744f2772f910b572f9c1caf27ec8d78.svg",
+    "static/media/flag_ae.svg": "/static/media/flag_ae.91c42f1972385ccff2734d3648bacdc1.svg",
     "static/media/code.svg": "/static/media/code.7c3bb18586e46350f51424a11d62a054.svg",
+    "static/media/flag_nl.svg": "/static/media/flag_nl.f5a54a3b50006fbe7f378cb42eb941e2.svg",
     "static/media/globe.svg": "/static/media/globe.ee907d5a6bc7b62406a3e2b3a0812dc7.svg",
     "static/media/bot.svg": "/static/media/bot.773134fd85048536963013e3f5c6e04e.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.566bbcbeea50b3c2739a65f8aab3689e.svg",
     "static/media/code-1.svg": "/static/media/code-1.65044e13005e89015f81.svg",
     "static/media/server.svg": "/static/media/server.7c46282979244cca744f6b2da61198f5.svg",
-    "main.50136408.css.map": "/static/css/main.50136408.css.map",
-    "main.c6dd334a.js.map": "/static/js/main.c6dd334a.js.map",
+    "main.8b3308cb.css.map": "/static/css/main.8b3308cb.css.map",
+    "main.a1d321f3.js.map": "/static/js/main.a1d321f3.js.map",
     "453.81a0e1db.chunk.js.map": "/static/js/453.81a0e1db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.50136408.css",
-    "static/js/main.c6dd334a.js"
+    "static/css/main.8b3308cb.css",
+    "static/js/main.a1d321f3.js"
   ]
 }
