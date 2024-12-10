@@ -51,7 +51,7 @@ const Project = () => {
 
     return (
         <div className="project">
-            <div className="project__filter">
+            {/* <div className="project__filter">
                 <div className="filter-section">
                     <span className="filter-label">Technologies</span>
                     <div className="filter-tags">
@@ -90,7 +90,7 @@ const Project = () => {
                     </>
                 )}
             </div>
-            
+             */}
             <div className="project__content">
                 {filteredProjects.map((project) => (
                     <div 

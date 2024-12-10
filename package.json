@@ -1,7 +1,7 @@
 {
   "name": "mb-dev",
   "version": "1.0.0",
-  "homepage": "https://mbajaman.dev",
+  "homepage": "%REACT_APP_HOMEPAGE%",
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^6.4.5",
@@ -15,9 +15,10 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
-    "predeploy": "npm run build",
-    "deploy": "gh-pages -d build",
-    "devDeploy": "gh-pages -b gh-pages-dev -d build --no-history",
+    "predeploy:prod": "cross-env REACT_APP_HOMEPAGE=https://mbajaman.dev node scripts/set-cname.js && npm run build",
+    "predeploy:staging": "cross-env REACT_APP_HOMEPAGE=https://staging.mbajaman.dev node scripts/set-cname.js && npm run build",
+    "deploy:prod": "gh-pages -d build -b gh-pages",
+    "deploy:staging": "gh-pages -d build -r https://github.com/mbajaman/staging-mbajaman.dev.git -b gh-pages",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
@@ -43,6 +44,7 @@
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21",
+    "cross-env": "^7.0.3",
     "gh-pages": "^5.0.0"
   }
 }

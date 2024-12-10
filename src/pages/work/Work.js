@@ -5,10 +5,10 @@ import './Work.css'
 const Work = () => {
     return (
         <div id="work" className="work-container section-tracker">           
-            <main className="work-content">
-                <h1 className="work-title">My Projects</h1>
+            <section className="work-content">
+                <h2 className="section-title">My Projects</h2>
                 <Project />
-            </main>
+            </section>
         </div>
     )
 }
