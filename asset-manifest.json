@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.134cd370.css",
-    "main.js": "/static/js/main.c17c0338.js",
+    "main.js": "/static/js/main.43b20ceb.js",
     "static/js/453.81a0e1db.chunk.js": "/static/js/453.81a0e1db.chunk.js",
     "static/media/illume-ch1.png": "/static/media/illume-ch1.e2dba293d2f7a60ed869.png",
     "static/media/illume-end.png": "/static/media/illume-end.a1a9601a92fe89696155.png",
@@ -28,6 +28,7 @@
     "static/media/sad-3.png": "/static/media/sad-3.c2de0636f3ac7d453550.png",
     "static/media/sad-4.png": "/static/media/sad-4.33e221729db694d821b9.png",
     "static/media/sad-2.png": "/static/media/sad-2.41f003a71c24ab678ec5.png",
+    "static/media/fb-logo.png": "/static/media/fb-logo.02f5dd9ae34562af1dc1.png",
     "static/media/wr_lol.png": "/static/media/wr_lol.3fe76d3bcc099c90a099.png",
     "static/media/gamepad.svg": "/static/media/gamepad.6b25b64a19e20e9a52cf50aa21e802e5.svg",
     "static/media/bado.svg": "/static/media/bado.65d818924500eada1eb9e0072de30229.svg",
@@ -42,11 +43,11 @@
     "static/media/server-icon.svg": "/static/media/server-icon.7c46282979244cca744f6b2da61198f5.svg",
     "static/media/ui-icon.svg": "/static/media/ui-icon.682cf72ea58cf8d581baca4ae540e6c3.svg",
     "main.134cd370.css.map": "/static/css/main.134cd370.css.map",
-    "main.c17c0338.js.map": "/static/js/main.c17c0338.js.map",
+    "main.43b20ceb.js.map": "/static/js/main.43b20ceb.js.map",
     "453.81a0e1db.chunk.js.map": "/static/js/453.81a0e1db.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.134cd370.css",
-    "static/js/main.c17c0338.js"
+    "static/js/main.43b20ceb.js"
   ]
 }
