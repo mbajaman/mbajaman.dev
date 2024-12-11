@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useRef } from 'react';
 import './Skills.css';
 
 // Import skill card icons
@@ -9,6 +9,8 @@ import aiIcon from '../../assets/skill-icons/bot.svg';
 import webIcon from '../../assets/skill-icons/globe.svg';
 
 const Skills = () => {
+    const skillsGridRef = useRef(null);
+
     const skillCards = [
         {
             icon: uiIcon,
@@ -37,11 +39,21 @@ const Skills = () => {
         },
     ];
 
+    const scroll = (direction) => {
+        if (skillsGridRef.current) {
+            const scrollAmount = direction === 'left' ? -200 : 200;
+            skillsGridRef.current.scrollBy({
+                left: scrollAmount,
+                behavior: 'smooth'
+            });
+        }
+    };
+
     return (
         <section id="skills" className="skills-section section-tracker">
             <h2 className="section-title">Skills</h2>
             
-            <div className="skills-grid">
+            <div className="skills-grid" ref={skillsGridRef}>
                 {skillCards.map((card, index) => (
                     <div className="skill-card" key={index}>
                         <img 
@@ -53,6 +65,23 @@ const Skills = () => {
                         <p>{card.description}</p>
                     </div>
                 ))}
+            </div>
+
+            <div className="scroll-controls">
+                <button 
+                    className="scroll-arrow left" 
+                    onClick={() => scroll('left')}
+                    aria-label="Scroll left"
+                >
+                    ←
+                </button>
+                <button 
+                    className="scroll-arrow right" 
+                    onClick={() => scroll('right')}
+                    aria-label="Scroll right"
+                >
+                    →
+                </button>
             </div>
         </section>
     );
