@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react'
+import React from 'react'
 import { Link } from 'react-router-dom'
 import { TypeAnimation } from 'react-type-animation'
 import Navbar from '../../components/navbar/Navbar'
@@ -40,27 +40,29 @@ const Home = () => {
         { name: 'Itch', url: 'https://mbajaman.itch.io/', icon: itchIcon }
     ];
 
-    const [activeSection, setActiveSection] = useState(0);
+    // TODO: Delete this section when done testing
+    // ##### Commented out time-line indicator #####
+    // const [activeSection, setActiveSection] = useState(0);
 
     // Add scroll event listener to track sections
-    useEffect(() => {
-        const handleScroll = () => {
-            const sections = document.querySelectorAll('.section-tracker');
-            const scrollPosition = window.scrollY + window.innerHeight / 2;
+    // useEffect(() => {
+    //     const handleScroll = () => {
+    //         const sections = document.querySelectorAll('.section-tracker');
+    //         const scrollPosition = window.scrollY + window.innerHeight / 2;
 
-            sections.forEach((section, index) => {
-                const sectionTop = section.offsetTop;
-                const sectionBottom = sectionTop + section.offsetHeight;
+    //         sections.forEach((section, index) => {
+    //             const sectionTop = section.offsetTop;
+    //             const sectionBottom = sectionTop + section.offsetHeight;
 
-                if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
-                    setActiveSection(index);
-                }
-            });
-        };
+    //             if (scrollPosition >= sectionTop && scrollPosition < sectionBottom) {
+    //                 setActiveSection(index);
+    //             }
+    //         });
+    //     };
 
-        window.addEventListener('scroll', handleScroll);
-        return () => window.removeEventListener('scroll', handleScroll);
-    }, []);
+    //     window.addEventListener('scroll', handleScroll);
+    //     return () => window.removeEventListener('scroll', handleScroll);
+    // }, []);
 
     return (
         <div id="home" className="home-container">
@@ -103,9 +105,13 @@ const Home = () => {
                         </p>
                         <div className="hero-actions">
                             <div className="cta-buttons">
-                                <Link to="/portfolio" className="primary-button">
+                                <div 
+                                    onClick={() => document.getElementById('work').scrollIntoView({ behavior: 'smooth' })}
+                                    className="primary-button"
+                                    style={{ cursor: 'pointer' }}
+                                >
                                     View My Work
-                                </Link>
+                                </div>
                                 <Link to="https://www.linkedin.com/in/mbajaman/" className="secondary-button">
                                 <img src={linkedinIcon} alt="LinkedIn" className='button-icon'/>
                                 Let's Connect
@@ -120,6 +126,7 @@ const Home = () => {
                 </div>
 
                 <Skills />
+                {/* TODO: Delete this section when done testing */}
                 { /* ##### Commented out time-line indicator ##### */ }
                 {/* <div className="timeline-indicator">
                     {[0, 1, 2, 3].map((index) => (
