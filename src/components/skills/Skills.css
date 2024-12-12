@@ -1,9 +1,10 @@
 .skills-section {
-    padding: 4rem 15%;
+    padding: 2rem 15%;
     background-color: white;
     position: relative;
 }
 
+/* TODO: Cleanup this css and add to global styles/separate component instead */
 .section-title {
     font-size: 2.5rem;
     margin-bottom: 3rem;

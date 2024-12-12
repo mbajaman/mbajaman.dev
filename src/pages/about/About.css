@@ -2,12 +2,12 @@
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-color: #f8f9fa;
+    background-color: white;
 }
 
 .about-content {
     flex: 1;
-    padding: 6rem 10% 4rem;
+    padding: 4rem 10% 2rem;
 }
 
 .about-section {
