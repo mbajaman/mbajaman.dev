@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react'
 import './Project.css'
-import projectsData from '../../data/projects.json'
-import ProjectModal from '../modal/ProjectModal'
+import projectsData from '@data/projects.json'
+import ProjectModal from '@components/modal/ProjectModal'
 
 const Project = () => {
     const { projects } = projectsData

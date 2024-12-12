@@ -1,24 +1,24 @@
 import React from 'react'
-import '../../styles/global.css';
+import '@styles/global.css';
 import './About.css'
 
 // Import selfie 📱
-import placeholderImage from '../../assets/profile.jpg'
+import placeholderImage from '@assets/profile.jpg'
 
 // Import info icons
-import gamepadIcon from '../../assets/about-icons/gamepad.svg'
-import badoIcon from '../../assets/about-icons/bado.svg'
-import lolIcon from '../../assets/about-icons/wr_lol.png'
-import travelIcon from '../../assets/about-icons/travel.svg'
-import esportsIcon from '../../assets/about-icons/esports.svg'
+import gamepadIcon from '@assets/about-icons/gamepad.svg'
+import badoIcon from '@assets/about-icons/bado.svg'
+import lolIcon from '@assets/about-icons/wr_lol.png'
+import travelIcon from '@assets/about-icons/travel.svg'
+import esportsIcon from '@assets/about-icons/esports.svg'
 
 // Import flags
-import usaFlag from '../../assets/flag-icons/flag_us.svg';
-import netherlandsFlag from '../../assets/flag-icons/flag_nl.svg';
-import belgiumFlag from '../../assets/flag-icons/flag_be.svg';
-import saudiFlag from '../../assets/flag-icons/flag_sa.svg';
-import indiaFlag from '../../assets/flag-icons/flag_in.svg';
-import uaeFlag from '../../assets/flag-icons/flag_ae.svg';
+import usaFlag from '@assets/flag-icons/flag_us.svg';
+import netherlandsFlag from '@assets/flag-icons/flag_nl.svg';
+import belgiumFlag from '@assets/flag-icons/flag_be.svg';
+import saudiFlag from '@assets/flag-icons/flag_sa.svg';
+import indiaFlag from '@assets/flag-icons/flag_in.svg';
+import uaeFlag from '@assets/flag-icons/flag_ae.svg';
 
 const About = () => {
     return (

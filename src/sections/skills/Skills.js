@@ -1,13 +1,13 @@
 import React, { useRef } from 'react';
-import '../../styles/global.css';
+import '@styles/global.css';
 import './Skills.css';
 
 // Import skill card icons
-import uiIcon from '../../assets/skill-icons/code.svg';
-import gameIcon from '../../assets/skill-icons/gamepad.svg';
-import backendIcon from '../../assets/skill-icons/server.svg';
-import aiIcon from '../../assets/skill-icons/bot.svg';
-import webIcon from '../../assets/skill-icons/globe.svg';
+import uiIcon from '@assets/skill-icons/code.svg';
+import gameIcon from '@assets/skill-icons/gamepad.svg';
+import backendIcon from '@assets/skill-icons/server.svg';
+import aiIcon from '@assets/skill-icons/bot.svg';
+import webIcon from '@assets/skill-icons/globe.svg';
 
 const Skills = () => {
     const skillsGridRef = useRef(null);

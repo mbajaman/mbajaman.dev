@@ -7,9 +7,9 @@ import './Hero.css'
 import workGif from './work.gif'
 
 // Import social icons
-import githubIcon from '../../assets/social-icons/github.svg'
-import linkedinIcon from '../../assets/social-icons/linkedin.svg'
-import itchIcon from '../../assets/social-icons/itchio.svg'
+import githubIcon from '@assets/social-icons/github.svg'
+import linkedinIcon from '@assets/social-icons/linkedin.svg'
+import itchIcon from '@assets/social-icons/itchio.svg'
 
 
 const Hero = () => {

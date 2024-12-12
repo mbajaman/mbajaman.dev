@@ -1,10 +1,15 @@
 import React from 'react'
-import Navbar from '../../components/navbar/Navbar'
-import Hero from '../../sections/hero/Hero'
-import Skills from '../../sections/skills/Skills'
-import Work from '../../sections/work/Work'
-import About from '../../sections/about/About'
-import Footer from '../../components/footer/Footer'
+
+// Import components
+import Navbar from '@components/navbar/Navbar'
+import Footer from '@components/footer/Footer'
+
+// Import sections
+import Hero from '@sections/hero/Hero'
+import Skills from '@sections/skills/Skills'
+import Work from '@sections/work/Work'
+import About from '@sections/about/About'
+
 import './Home.css'
 
 

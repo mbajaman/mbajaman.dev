@@ -19,9 +19,9 @@
     "predeploy:staging": "node scripts/set-homepage.js staging && node scripts/set-cname.js && npm run build",
     "deploy:prod": "gh-pages -d build -b gh-pages",
     "deploy:staging": "gh-pages -d build -r https://github.com/mbajaman/staging.mbajaman.dev.git -b gh-pages",
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
     "eject": "react-scripts eject"
   },
   "eslintConfig": {
@@ -45,6 +45,8 @@
   "devDependencies": {
     "@babel/plugin-proposal-private-property-in-object": "^7.21",
     "cross-env": "^7.0.3",
-    "gh-pages": "^5.0.0"
+    "customize-cra": "^1.0.0",
+    "gh-pages": "^5.0.0",
+    "react-app-rewired": "^2.2.1"
   }
 }
