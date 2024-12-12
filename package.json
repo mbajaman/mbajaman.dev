@@ -18,7 +18,7 @@
     "predeploy:prod": "node scripts/set-homepage.js prod && node scripts/set-cname.js && npm run build",
     "predeploy:staging": "node scripts/set-homepage.js staging && node scripts/set-cname.js && npm run build",
     "deploy:prod": "gh-pages -d build -b gh-pages",
-    "deploy:staging": "gh-pages -d build -r https://github.com/mbajaman/staging-mbajaman.dev.git -b gh-pages",
+    "deploy:staging": "gh-pages -d build -r https://github.com/mbajaman/staging.mbajaman.dev.git -b gh-pages",
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
