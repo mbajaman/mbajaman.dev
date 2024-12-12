@@ -7,10 +7,11 @@
 
 /* Section Titles */
 .section-title {
-    font-size: 2.5rem;
-    margin-bottom: 3rem;
-    position: relative;
     display: inline-block;
+    position: relative;
+    font-size: 2.5rem;
+    font-weight: 600;
+    margin-bottom: 3rem;
 }
 
 .section-title::after {
