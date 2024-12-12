@@ -1,8 +1,8 @@
 import React from 'react';
 import { BrowserRouter as Router, Route, Routes } from 'react-router-dom';
 import Home from './pages/home/Home';
-import Work from './pages/work/Work';
-import About from './pages/about/About';
+import Work from './sections/work/Work';
+import About from './sections/about/About';
 
 const MainContainer = () => {
   return (

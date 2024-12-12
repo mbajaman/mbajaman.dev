@@ -1,4 +1,5 @@
 import React, { useRef } from 'react';
+import '../../styles/global.css';
 import './Skills.css';
 
 // Import skill card icons
@@ -50,7 +51,7 @@ const Skills = () => {
     };
 
     return (
-        <section id="skills" className="skills-section section-tracker">
+        <section id="skills" className="section section-tracker">
             <h2 className="section-title">Skills</h2>
             
             <div className="skills-grid" ref={skillsGridRef}>
