@@ -1,14 +1,16 @@
 {
     "compilerOptions": {
-        "baseUrl":".",
-        "module":"CommonJS",
-        "target":"ES6",
+        "baseUrl": "src",
+        "module": "CommonJS",
+        "target": "ES6",
         "paths": {
-            "components*":["./components/*"],
-            "src*":["./src/*"],
-            "assets*":["./assets/*"],
-            "public*":["./public/*"]
+            "@components/*": ["components/*"],
+            "@assets/*": ["assets/*"],
+            "@styles/*": ["styles/*"],
+            "@data/*": ["data/*"],
+            "@sections/*": ["sections/*"],
+            "@pages/*": ["pages/*"]
         }
     },
-    "exclude":["node_modules"]
+    "exclude": ["node_modules"]
 }
