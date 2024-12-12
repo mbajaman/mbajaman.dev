@@ -7,6 +7,7 @@ module.exports = override(
     '@assets': path.resolve(__dirname, 'src/assets'),
     '@styles': path.resolve(__dirname, 'src/styles'),
     '@data': path.resolve(__dirname, 'src/data'),
-    '@sections': path.resolve(__dirname, 'src/sections')
+    '@sections': path.resolve(__dirname, 'src/sections'),
+    '@pages': path.resolve(__dirname, 'src/pages')
   })
 ); 

@@ -8,7 +8,8 @@
             "@assets/*": ["assets/*"],
             "@styles/*": ["styles/*"],
             "@data/*": ["data/*"],
-            "@sections/*": ["sections/*"]
+            "@sections/*": ["sections/*"],
+            "@pages/*": ["pages/*"]
         }
     },
     "exclude": ["node_modules"]
