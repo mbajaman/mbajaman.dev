@@ -30,7 +30,7 @@ const About = () => {
             
             <div className="about-text">
                 <h1 className="section-title">About Me</h1>
-                <p className="subtitle">Software Engineer | Game Developer | IT Expert</p>
+                <p className="about-subtitle">Software Engineer | Game Developer | IT Expert</p>
                 
                 <div className="about-description">
                     <p>

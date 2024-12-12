@@ -66,7 +66,7 @@ const Hero = () => {
                         />
                     </span>
                 </h2>
-                <p className="subtitle">
+                <p className="hero-subtitle">
                     Passionate about creating elegant solutions through code. 
                     Specializing in software engineering, game development, and IT solutions.
                 </p>
