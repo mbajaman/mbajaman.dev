@@ -22,7 +22,9 @@ import uaeFlag from '@assets/flag-icons/flag_ae.svg';
 
 const About = () => {
     return (
-        <section id="about" className="about-section section-tracker">
+        <div id="about" className="about-container section-tracker">
+        <section id="about" className="about-content">
+            <div className='about-section'>
             <div className="about-image">
                 <img src={placeholderImage} alt="Mohammed Bajaman" />
                 <div className="image-overlay"></div>
@@ -96,7 +98,9 @@ const About = () => {
                     </div>
                 </div>
             </div>
+            </div>
         </section>
+        </div>
     )
 }
 

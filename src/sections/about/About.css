@@ -1,7 +1,16 @@
-.about-section {
-    padding: 4rem 10%;
+.about-container {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
     background-color: white;
-    position: relative;
+}
+
+.about-content {
+    flex: 1;
+    padding: 4rem 10% 2rem;
+}
+
+.about-section {
     display: flex;
     gap: 4rem;
     max-width: 1200px;
