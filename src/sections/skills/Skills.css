@@ -1,0 +1,111 @@
+.skills-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 2rem;
+}
+
+.skill-card {
+    background-color: #f8f9fa;
+    padding: 1.5rem;
+    border-radius: 8px;
+    transition: all 0.3s ease;
+}
+
+.skill-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
+}
+
+.skill-icon {
+    width: 48px;
+    height: 48px;
+    margin-bottom: 1.5rem;
+    transition: transform 0.3s ease;
+}
+
+.skill-card:hover .skill-icon {
+    transform: scale(1.1);
+}
+
+.skill-card h4 {
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    color: #2d3436;
+}
+
+.skill-card p {
+    color: #636e72;
+    line-height: 1.6;
+}
+
+/* Add new mobile scroll controls */
+.scroll-controls {
+    display: none;
+}
+
+@media (max-width: 768px) {
+    .skills-grid {
+        display: flex;
+        overflow-x: auto;
+        scroll-behavior: smooth;
+        scroll-snap-type: x mandatory;
+        gap: 1rem;
+        padding: 0;
+        -ms-overflow-style: none;  /* Hide scrollbar IE and Edge */
+        scrollbar-width: none;  /* Hide scrollbar Firefox */
+    }
+
+    .skills-grid::-webkit-scrollbar {
+        display: none; /* Hide scrollbar Chrome, Safari, Opera */
+    }
+
+    .skill-card {
+        flex: 0 0 60%;
+        scroll-snap-align: center;
+    }
+
+    .scroll-controls {
+        display: block;
+        position: absolute;
+        top: 90%;
+        width: 90%;
+        left: 0;
+        transform: translateY(-50%);
+        pointer-events: none;
+        padding: 0 5%;
+    }
+
+    .scroll-arrow {
+        position: absolute;
+        scale: 1.5;
+        width: 40px;
+        height: 40px;
+        background: none;
+        border: none;
+        color: black;
+        cursor: pointer;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        pointer-events: auto;
+        transition: all 0.3s ease;
+    }
+
+    .scroll-arrow:hover {
+        transform: scale(1.1);
+    }
+
+    .scroll-arrow.left {
+        left: 5%;
+    }
+
+    .scroll-arrow.right {
+        right: 5%;
+    }
+
+    .scroll-arrow:disabled {
+        background: #ccc;
+        cursor: not-allowed;
+        opacity: 0.5;
+    }
+} 

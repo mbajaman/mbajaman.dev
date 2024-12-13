@@ -20,13 +20,11 @@
     font-weight: 400;
 }
 
-.footer__links,
 .footer__social-links {
     display: flex;
     gap: 2rem;
 }
 
-.footer__links a,
 .footer__social-links a {
     color: #636e72;
     text-decoration: none;
@@ -36,7 +34,6 @@
     letter-spacing: 0.2px;
 }
 
-.footer__links a:hover,
 .footer__social-links a:hover {
     color: #0984e3;
 }
@@ -73,7 +70,6 @@
         text-align: center;
     }
 
-    .footer__links,
     .footer__social-links {
         gap: 1.5rem;
     }

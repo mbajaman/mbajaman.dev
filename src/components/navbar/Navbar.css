@@ -27,7 +27,7 @@
 
 .navbar__logo {
     font-size: 1.5rem;
-    font-weight: 700;
+    font-weight: 600;
     letter-spacing: -0.5px;
 }
 
@@ -39,11 +39,12 @@
 .navbar__menu-item {
     position: relative;
     text-decoration: none;
-    color: black;
+    color: #636e72;
     font-size: 1.1rem;
     font-weight: 500;
     letter-spacing: 1px;
     padding: 0.5rem 0;
+    transition: color 0.3s ease;
 }
 
 .navbar__menu-item::after {
@@ -53,7 +54,7 @@
     bottom: 0;
     width: 0;
     height: 2px;
-    background-color: black;
+    background-color: #0984e3;
     transition: width 0.3s ease;
 }
 
@@ -62,12 +63,9 @@
     width: 100%;
 }
 
+.navbar__menu-item:hover,
 .navbar__menu-item.active {
     color: #0984e3;
-}
-
-.navbar__menu-item.active::after {
-    background-color: #0984e3;
 }
 
 /* Mobile Navigation */
@@ -138,7 +136,7 @@
 
 .navbar__mobile-item {
     text-decoration: none;
-    color: #000;
+    color: #636e72;
     font-size: 1.8rem;
     font-weight: 600;
     padding: 1.2rem 0;
@@ -156,8 +154,7 @@
     width: 0;
     height: 2px;
     background-color: #0984e3;
-    transition: all 0.3s ease;
-    transform: none;
+    transition: width 0.3s ease;
 }
 
 .navbar__mobile-item:hover::after,

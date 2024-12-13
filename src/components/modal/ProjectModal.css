@@ -30,8 +30,8 @@
 
 .modal-close {
     position: absolute;
-    top: 1rem;
-    right: 1rem;
+    top: 0.5rem;
+    right: 0.75rem;
     background: none;
     border: none;
     font-size: 2rem;
@@ -216,7 +216,7 @@
     }
 
     .modal-gallery {
-        height: 40vh;
+        height: 30vh;
         min-height: 200px;
         max-height: 40vh;
         aspect-ratio: auto;
@@ -229,7 +229,7 @@
     .modal-details {
         padding: 1rem;
         height: auto;
-        max-height: 55vh;
+        max-height: 45vh;
         overflow-y: auto;
         flex: 1;
     }
@@ -252,7 +252,7 @@
 
 @media (max-height: 600px) {
     .modal-gallery {
-        height: 35vh;
+        height: 30vh;
         min-height: 150px;
     }
 

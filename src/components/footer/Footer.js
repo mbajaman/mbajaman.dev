@@ -1,6 +1,5 @@
 import React from 'react'
 import './Footer.css'
-import { Link } from 'react-router-dom';
 
 // Import icons
 import githubIcon from '../../assets/social-icons/github.svg'
@@ -20,12 +19,6 @@ const Footer = () => {
                 <p className="footer__copyright">
                     © {new Date().getFullYear()} Mohammed Bajaman
                 </p>
-                
-                <div className="footer__links">
-                    <Link to="/">Home</Link>
-                    <Link to="/portfolio">Work</Link>
-                    <Link to="/about">About</Link>
-                </div>
 
                 <div className="footer__social-links">
                     {socialLinks.map((link) => (
