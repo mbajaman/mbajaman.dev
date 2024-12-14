@@ -133,7 +133,7 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
                         {project.itchLink && (
                             <a 
                                 href={project.itchLink} 
-                                className="modal-button secondary"
+                                className="modal-button secondary-button"
                                 target="_blank"
                                 rel="noopener noreferrer"
                             >
@@ -143,7 +143,7 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
                         )}
                         <a 
                             href={project.githubLink} 
-                            className="modal-button secondary"
+                            className="modal-button secondary-button"
                             target="_blank"
                             rel="noopener noreferrer"
                         >
@@ -153,7 +153,7 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
                         {project.youtubeLink && (
                             <a 
                                 href={project.youtubeLink} 
-                                className="modal-button secondary"
+                                className="modal-button secondary-button"
                                 target="_blank"
                                 rel="noopener noreferrer"
                         >

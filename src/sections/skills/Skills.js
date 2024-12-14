@@ -1,5 +1,4 @@
 import React, { useRef } from 'react';
-import '@styles/global.css';
 import './Skills.css';
 
 // Import skill card icons

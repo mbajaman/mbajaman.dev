@@ -1,3 +1,4 @@
+import '@styles/global.css'
 import MainContainer from "./MainContainer";
 
 function App() {

@@ -14,7 +14,7 @@
 }
 
 .modal-content {
-    background: white;
+    background: var(--background);
     border-radius: 12px;
     width: 90%;
     max-width: 1200px;
@@ -47,7 +47,7 @@
 
 .modal-gallery {
     position: relative;
-    background: #f8f9fa;
+    background: var(--background);
     height: 90vh;
     display: flex;
     align-items: center;
@@ -66,7 +66,8 @@
     position: absolute;
     top: 50%;
     transform: translateY(-50%);
-    background: rgba(255, 255, 255, 0.8);
+    background: var(--background45);
+    color: var(--primary);
     border: none;
     width: 40px;
     height: 40px;
@@ -80,7 +81,7 @@
 }
 
 .gallery-nav:hover {
-    background: white;
+    background: var(--background70);
     transform: translateY(-50%) scale(1.1);
 }
 
@@ -105,7 +106,7 @@
 }
 
 .modal-details h2 {
-    color: #0984e3;
+    color: var(--primary90);
     margin: 0 0 1rem;
 }
 
@@ -121,22 +122,22 @@
     padding: 0.25rem 0.75rem;
     border-radius: 15px;
     font-size: 0.8rem;
-    color: #4a89dc;
+    color: var(--primary);
 }
 
 .modal-description h3 {
     margin: 1.5rem 0 1rem;
-    color: #2d3436;
+    color: var(--text);
 }
 
 .modal-description p {
-    color: #636e72;
+    color: var(--text75);
     line-height: 1.6;
     margin-bottom: 1rem;
 }
 
 .modal-description ul {
-    color: #636e72;
+    color: var(--text75);
     line-height: 1.6;
     padding-left: 1.5rem;
     margin-bottom: 1.5rem;
@@ -161,18 +162,7 @@
     min-width: 120px;
     flex: 1;
     text-align: center;
-}
-
-.modal-button.primary {
-    background: #0984e3;
-    color: white;
-}
-
-.modal-button.secondary {
-    border: 2px solid #0984e3;
-    color: #0984e3;
-    display: flex;
-    align-items: center;
+    gap: unset;
 }
 
 .modal-button img {
@@ -297,7 +287,7 @@
     width: 8px;
     height: 8px;
     border-radius: 50%;
-    background: rgba(255, 255, 255, 0.5);
+    background: var(--primary60);
     border: none;
     cursor: pointer;
     padding: 0;
@@ -306,6 +296,6 @@
 }
 
 .gallery-dot.active {
-    background: white;
+    background: var(--primary);
     transform: scale(1.2);
 }
