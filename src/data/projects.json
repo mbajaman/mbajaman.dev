@@ -83,6 +83,22 @@
             "githubLink": "https://github.com/mbajaman/FocusBreakout",
             "youtubeLink": "https://www.youtube.com/watch?v=ah-MSnVxhL4",
             "tags": ["C#", "Unity", "Level Design", "Action"]
+        },
+        {
+            "name": "Trial Date Calculator",
+            "description": "A tool to automate calendar invites/reminders for important deadlines leading up to the trial date.",
+            "details": [
+                "In-house tool built using Sharepoint Online Power Automate.",
+                "Hosted on a local Flask server.",
+                "Automated hour long task of sending invites and reminders down to 5 minutes."
+            ],
+            "_comment": "TODO: Add images",
+            "images": [
+                "assets/project-media/hypergoap/hgoap-ai.png",
+                "assets/project-media/hypergoap/hgoap-ai.png",
+                "assets/project-media/hypergoap/hgoap-ai.png"
+            ],
+            "tags": ["Python", "Sharepoint", "Power Automate", "Flask"]
         }
     ]
 }
