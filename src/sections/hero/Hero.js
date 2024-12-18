@@ -7,6 +7,7 @@ import './Hero.css'
 import workGif from './work.gif'
 
 // Import social icons
+import emailIcon from '@assets/social-icons/email.svg'
 import githubIcon from '@assets/social-icons/github.svg'
 import linkedinIcon from '@assets/social-icons/linkedin.svg'
 import itchIcon from '@assets/social-icons/itchio.svg'
@@ -29,7 +30,7 @@ const Hero = () => {
     ];
 
     const socialLinks = [
-        //TODO: Add email 
+        { name: 'Email', url: 'mailto:mohammed_bajaman@hotmail.com', icon: emailIcon },
         { name: 'GitHub', url: 'https://github.com/mbajaman', icon: githubIcon },
         { name: 'LinkedIn', url: 'https://www.linkedin.com/in/mbajaman/', icon: linkedinIcon },
         { name: 'Itch', url: 'https://mbajaman.itch.io/', icon: itchIcon }
