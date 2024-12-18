@@ -30,10 +30,10 @@
                 "CI/CD pipeline for automated testing."
             ],
             "images": [
+                "assets/project-media/sad/sad.png",
                 "assets/project-media/sad/sad-1.png",
                 "assets/project-media/sad/sad-2.png",
-                "assets/project-media/sad/sad-3.png",
-                "assets/project-media/sad/sad-4.png"
+                "assets/project-media/sad/sad-3.png"
             ],
             "githubLink": "https://github.com/mbajaman/SAD",
             "tags": ["C++", "Game Engine", "Shaders"]
@@ -107,9 +107,9 @@
                 "Gameplay mechanics created using Blueprints."
             ],
             "images": [
+                "assets/project-media/octopations/octopations.png",
                 "assets/project-media/octopations/octopations-1.png",
-                "assets/project-media/octopations/octopations-2.png",
-                "assets/project-media/octopations/octopations-3.png"
+                "assets/project-media/octopations/octopations-2.png"
             ],
             "otherLink": "https://globalgamejam.org/games/2024/octopations-4",
             "tags": ["C++", "UE5", "Party Game", "Game Jam"]
@@ -122,10 +122,10 @@
                 "Gameplay mechanics created using GDScript."
             ],
             "images": [
+                "assets/project-media/cownado/cownado.png",
                 "assets/project-media/cownado/cownado-1.png",
                 "assets/project-media/cownado/cownado-2.png",
-                "assets/project-media/cownado/cownado-3.png",
-                "assets/project-media/cownado/cownado-4.png"
+                "assets/project-media/cownado/cownado-3.png"
             ],
             "itchLink": "https://jake-pauls.itch.io/cownado",
             "githubLink": "https://github.com/20TB-ZipBomb/BGJ2024",
@@ -140,7 +140,7 @@
                 "Managed the deployment of over 200 computers and laptops at the firm."
             ],
             "images": [
-                "assets/project-media/wid/wid-1.jpg"
+                "assets/project-media/wid/wid.jpg"
             ],
             "tags": ["Powershell", "Bash", "PDQ", "Microsoft Deployment Toolkit"]
         },
@@ -154,10 +154,10 @@
                 "Collect and hoard peanuts before time runs out."
             ],
             "images": [
+                "assets/project-media/hamstars/hamstars.png",
                 "assets/project-media/hamstars/hamstars-1.png",
                 "assets/project-media/hamstars/hamstars-2.png",
-                "assets/project-media/hamstars/hamstars-3.png",
-                "assets/project-media/hamstars/hamstars-4.png"
+                "assets/project-media/hamstars/hamstars-3.png"
             ],
             "githubLink": "https://github.com/jake-pauls/Hamstars/tree/develop",
             "itchLink": "https://jake-pauls.itch.io/hamstars?secret=VC7My4gAvWGomMn0pWjmA0heJQ",
