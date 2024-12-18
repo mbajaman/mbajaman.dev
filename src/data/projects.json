@@ -153,8 +153,10 @@
                 ""
             ],
             "images": [
-                ""
+                "assets/project-media/hamstars/hamstars-1.png"
             ],
+            "githubLink": "https://github.com/jake-pauls/Hamstars/tree/develop",
+            "itchLink": "https://jake-pauls.itch.io/hamstars?secret=VC7My4gAvWGomMn0pWjmA0heJQ",
             "tags": ["C#", "Unity", "Game Jam"]
         }
     ]
