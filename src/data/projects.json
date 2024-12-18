@@ -146,14 +146,18 @@
         },
         {
             "name": "Hamstars",
-            "description": "Compete with up to 4 friends as a hamster in this fast-paced peanut hoarding brawl. Created for the Town One Game Jam, May 2022.",
-            "_comment": "TODO: Finish this project entry",
+            "description": "Compete with up to 4 friends as a hamster in this fast-paced peanut hoarding brawl. Created during the Town One Game Jam, May 2022.",
             "details": [
-                "A co-op game created in Unity.",
-                ""
+                "Winner of the Town One Artisan Award 🎨",
+                "Created using Unity",
+                "Hop in a hamster ball and squash the competition.",
+                "Collect and hoard peanuts before time runs out."
             ],
             "images": [
-                "assets/project-media/hamstars/hamstars-1.png"
+                "assets/project-media/hamstars/hamstars-1.png",
+                "assets/project-media/hamstars/hamstars-2.png",
+                "assets/project-media/hamstars/hamstars-3.png",
+                "assets/project-media/hamstars/hamstars-4.png"
             ],
             "githubLink": "https://github.com/jake-pauls/Hamstars/tree/develop",
             "itchLink": "https://jake-pauls.itch.io/hamstars?secret=VC7My4gAvWGomMn0pWjmA0heJQ",
