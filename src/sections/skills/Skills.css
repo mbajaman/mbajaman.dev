@@ -21,6 +21,30 @@
     height: 48px;
     margin-bottom: 1.5rem;
     transition: transform 0.3s ease;
+    background-color: var(--primary);
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+}
+
+.skill-icon.code {
+    mask-image: url('@assets/skill-icons/code.svg');
+}
+
+.skill-icon.gamepad {
+    mask-image: url('@assets/skill-icons/gamepad.svg');
+}
+
+.skill-icon.server {
+    mask-image: url('@assets/skill-icons/server.svg');
+}
+
+.skill-icon.bot {
+    mask-image: url('@assets/skill-icons/bot.svg');
+}
+
+.skill-icon.globe {
+    mask-image: url('@assets/skill-icons/globe.svg');
 }
 
 .skill-card:hover .skill-icon {
@@ -30,11 +54,11 @@
 .skill-card h4 {
     font-size: 1.2rem;
     margin-bottom: 1rem;
-    color: #2d3436;
+    color: var(--primary);
 }
 
 .skill-card p {
-    color: #636e72;
+    color: var(--text);
     line-height: 1.6;
 }
 

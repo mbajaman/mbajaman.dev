@@ -63,6 +63,10 @@ const About = () => {
                                 <span className="value">BTech (opt. Games Development)</span>
                             </div>
                         </div>
+
+                        <div className="quick-info-cover">
+
+                        </div>
                         
                         <div className="peeking-icons">
                             <div className="peek-icon-wrapper gamepad">

@@ -2,38 +2,34 @@ import React, { useRef } from 'react';
 import './Skills.css';
 
 // Import skill card icons
-import uiIcon from '@assets/skill-icons/code.svg';
-import gameIcon from '@assets/skill-icons/gamepad.svg';
-import backendIcon from '@assets/skill-icons/server.svg';
-import aiIcon from '@assets/skill-icons/bot.svg';
-import webIcon from '@assets/skill-icons/globe.svg';
+
 
 const Skills = () => {
     const skillsGridRef = useRef(null);
 
     const skillCards = [
         {
-            icon: uiIcon,
+            svgName: "code",
             title: "Software Engineering",
             description: "Building scalable and efficient software solutions"
         },
         {
-            icon: gameIcon,
+            svgName: "gamepad",
             title: "Game Development",
             description: "Developing engaging gaming experiences"
         },
         {
-            icon: backendIcon,
+            svgName: "server",
             title: "IT Solutions",
             description: "Building and securing IT applications"
         },
         {
-            icon: aiIcon,
+            svgName: "bot",
             title: "AI Programming",
             description: "Training and deploying AI models"
         },
         {
-            icon: webIcon,
+            svgName: "globe",
             title: "Web Development",
             description: "Crafting modern and responsive web applications"
         },
@@ -56,11 +52,9 @@ const Skills = () => {
             <div className="skills-grid" ref={skillsGridRef}>
                 {skillCards.map((card, index) => (
                     <div className="skill-card" key={index}>
-                        <img 
-                            src={card.icon} 
-                            alt={card.title}
-                            className="skill-icon"
-                        />
+                            <div 
+                                className={`skill-icon ${card.svgName}`}
+                            > </div>
                         <h4>{card.title}</h4>
                         <p>{card.description}</p>
                     </div>
