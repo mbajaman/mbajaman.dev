@@ -66,8 +66,8 @@
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-    mix-blend-mode:overlay;
-    filter: hue-rotate(30deg) saturate(85.4%) brightness(2);
+    /* mix-blend-mode: multiply; */
+    filter: hue-rotate(30deg) saturate(85.4%) brightness(1.1);
 }
 
 /* Add these styles after the hero-text h2 styles */

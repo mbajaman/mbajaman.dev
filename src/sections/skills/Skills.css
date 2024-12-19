@@ -106,7 +106,7 @@
         height: 40px;
         background: none;
         border: none;
-        color: black;
+        color: var(--text);
         cursor: pointer;
         display: flex;
         align-items: center;
