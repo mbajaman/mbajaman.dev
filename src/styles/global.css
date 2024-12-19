@@ -2,7 +2,7 @@
 
 /* Section */
 .section {
-    padding: 2rem 10%;
+    padding: 2rem 10vw;
     background-color: var(--background);
     position: relative;
 }
