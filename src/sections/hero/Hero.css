@@ -66,7 +66,8 @@
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-    mix-blend-mode: multiply;
+    mix-blend-mode:overlay;
+    filter: hue-rotate(30deg) saturate(85.4%) brightness(2);
 }
 
 /* Add these styles after the hero-text h2 styles */
@@ -150,7 +151,6 @@
     .hero-section {
         flex-direction: column;
         padding: 4rem 5%;
-        background: #e8f0fe;
         text-align: center;
         min-height: calc(100vh - 12rem);
     }
@@ -158,7 +158,6 @@
     .hero-image {
         margin-top: 2rem;
         padding: 0;
-        background-color: #e8f0fe;
     }
 
     .hero-image img {

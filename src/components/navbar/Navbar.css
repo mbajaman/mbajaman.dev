@@ -110,11 +110,11 @@
 
 .navbar__mobile-menu {
     position: fixed;
-    top: 4rem;
+    top: 3.97rem;
     left: -100%;
     width: 75%;
     height: calc(100vh - 4rem);
-    background: rgba(255, 255, 255, 0.98);
+    background: var(--background);
     backdrop-filter: blur(10px);
     display: flex;
     flex-direction: column;
@@ -124,7 +124,6 @@
     transition: left 0.3s ease;
     visibility: hidden;
     z-index: 1000;
-    border-right: 1px solid rgba(0, 0, 0, 0.1);
 }
 
 .navbar__mobile-menu.active {
