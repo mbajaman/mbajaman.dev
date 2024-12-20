@@ -46,6 +46,9 @@ const Navbar = () => {
                 if(element.id == "work") {
                     offsetPosition *= 1.05;
                }
+               else if (element.id == "skills") {
+                offsetPosition *= 1.05;
+            }
                else if (element.id == "about") {
                    offsetPosition *= 0.975;
                }

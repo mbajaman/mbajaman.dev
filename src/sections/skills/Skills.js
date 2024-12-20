@@ -30,6 +30,11 @@ const Skills = () => {
             description: "Training and deploying AI models"
         },
         {
+            svgName: "tetris",
+            title: "Game Design",
+            description: "Prototyping and designing engaging games"
+        },
+        {
             svgName: "globe",
             title: "Web Development",
             description: "Crafting modern and responsive web applications"
