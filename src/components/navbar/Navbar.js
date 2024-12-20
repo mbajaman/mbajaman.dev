@@ -48,6 +48,7 @@ const Navbar = () => {
     };
 
     return (
+        <>
         <nav className='navbar'>
             <div className='navbar__desktop'>
                 <div 
@@ -91,11 +92,6 @@ const Navbar = () => {
                     <span className='navbar__logo'>MB</span>
                 </div>
 
-                <div 
-                    className={`navbar__mobile-overlay ${isMenuOpen ? 'active' : ''}`}
-                    onClick={() => setIsMenuOpen(false)}
-                ></div>
-
                 <div className={`navbar__mobile-menu ${isMenuOpen ? 'active' : ''}`}>
                     {navItems.map((item) => (
                         <div 
@@ -110,6 +106,12 @@ const Navbar = () => {
                 </div>
             </div>
         </nav>
+
+        {/* Overlay goes here to allow backdrop-filter blur in mobile menu */}
+        <div className={`navbar__mobile-overlay ${isMenuOpen ? 'active' : ''}`}
+            onClick={() => setIsMenuOpen(false)}
+        ></div>
+        </>
     )
 }
 
