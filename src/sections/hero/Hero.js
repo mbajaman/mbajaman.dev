@@ -30,10 +30,10 @@ const Hero = () => {
     ];
 
     const socialLinks = [
-        { name: 'Email', url: 'mailto:mohammed_bajaman@hotmail.com', icon: emailIcon },
-        { name: 'GitHub', url: 'https://github.com/mbajaman', icon: githubIcon },
-        { name: 'LinkedIn', url: 'https://www.linkedin.com/in/mbajaman/', icon: linkedinIcon },
-        { name: 'Itch', url: 'https://mbajaman.itch.io/', icon: itchIcon }
+        { name: 'Email', url: 'mailto:mohammed_bajaman@hotmail.com', title: 'mohammed_bajaman@hotmail.com', icon: emailIcon },
+        { name: 'GitHub', url: 'https://github.com/mbajaman', title: 'https://github.com/mbajaman', icon: githubIcon },
+        { name: 'LinkedIn', url: 'https://www.linkedin.com/in/mbajaman/', title: 'https://www.linkedin.com/in/mbajaman/', icon: linkedinIcon },
+        { name: 'Itch', url: 'https://mbajaman.itch.io/', title: 'https://mbajaman.itch.io/', icon: itchIcon }
     ];
 
     return (
@@ -43,6 +43,7 @@ const Hero = () => {
                     <a 
                         key={link.name}
                         href={link.url}
+                        title={link.title}
                         target="_blank"
                         rel="noopener noreferrer"
                         className="social-icon"
