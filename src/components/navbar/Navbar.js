@@ -38,8 +38,18 @@ const Navbar = () => {
         const element = document.getElementById(id);
         if (element) {
             const elementPosition = element.getBoundingClientRect().top;
-            const offsetPosition = elementPosition + window.scrollY;
-            
+            var offsetPosition = elementPosition + window.scrollY;
+
+            // Check width to handle scrolling based on screen width
+            var width = (window.innerWidth > 0) ? window.innerWidth : window.screen.width;
+            if (width > 1440){
+                if(element.id == "work") {
+                    offsetPosition *= 1.05;
+               }
+               else if (element.id == "about") {
+                   offsetPosition *= 0.975;
+               }
+            }
             window.scrollTo({
                 top: offsetPosition,
                 behavior: 'smooth'

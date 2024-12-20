@@ -7,6 +7,7 @@ import './Skills.css';
 const Skills = () => {
     const skillsGridRef = useRef(null);
 
+    //TODO: Add another skill to make 6 total
     const skillCards = [
         {
             svgName: "code",
