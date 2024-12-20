@@ -67,7 +67,7 @@
     height: auto;
     border-radius: 10px;
     /* mix-blend-mode: multiply; */
-    filter: hue-rotate(30deg) saturate(85.4%) brightness(1.1);
+    filter: hue-rotate(33.5deg);
 }
 
 /* Add these styles after the hero-text h2 styles */
