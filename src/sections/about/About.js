@@ -62,6 +62,10 @@ const About = () => {
                                 <span className="label">Degree</span>
                                 <span className="value">BTech (opt. Games Development)</span>
                             </div>
+                            <div className="info-item">
+                                <span className="label">Portfolio Status</span>
+                                <span className="value">Actively Updated</span>
+                            </div>
                         </div>
 
                         <div className="quick-info-cover">
