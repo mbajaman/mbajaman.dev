@@ -1,15 +1,14 @@
 .footer {
     background-color: var(--background5);
-    border-top: 1px solid rgba(0, 0, 0, 0.1);
-    padding: 1.25rem 10%;
+    /* TODO: Cleanup*/
+    /* border-top: 1px solid rgba(0, 0, 0, 0.1); */
+    padding: 1.25rem 15%;
 }
 
 .footer__content {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    max-width: 1200px;
-    margin: 0 auto;
     gap: 3rem;
 }
 

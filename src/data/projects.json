@@ -15,7 +15,7 @@
                 "assets/project-media/hypergoap/hgoap-markov-pcg-2.png"
             ],
             "githubLink": "https://github.com/mbajaman/HyperGoap",
-            "tags": ["C++", "UE5", "Procedural Content Generation", "AI"]
+            "tags": ["C++", "UE5", "PCG", "AI"]
         },
         {
             "name": "SAD",
@@ -142,7 +142,7 @@
             "images": [
                 "assets/project-media/wid/wid.jpg"
             ],
-            "tags": ["Powershell", "Bash", "PDQ", "Microsoft Deployment Toolkit"]
+            "tags": ["Powershell", "Bash", "PDQ", "MDT"]
         },
         {
             "name": "Hamstars",

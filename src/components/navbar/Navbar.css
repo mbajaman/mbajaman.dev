@@ -7,7 +7,6 @@
     background: var(--background5);
     backdrop-filter: blur(30px);
     z-index: 1000;
-    padding: 0 2rem;
 }
 
 .navbar__desktop {
@@ -15,8 +14,8 @@
     height: 100%;
     align-items: center;
     justify-content: space-between;
-    max-width: 70vw;
-    margin: 0 auto;
+    max-width: 100vw;
+    padding: 0 15vw;
 }
 
 .navbar__brand {
@@ -74,6 +73,7 @@
     align-items: center;
     justify-content: space-between;
     flex-direction: row-reverse;
+    padding: 0 5%;
 }
 
 .navbar__hamburger {
@@ -117,7 +117,7 @@
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    padding: 2rem 2rem;
+    padding: 2rem 5%;
     transition: left 0.3s ease;
     visibility: hidden;
     z-index: 1000;

@@ -43,13 +43,13 @@ const Navbar = () => {
             // Check width to handle scrolling based on screen width
             var width = (window.innerWidth > 0) ? window.innerWidth : window.screen.width;
             if (width > 1440){
-                if(element.id == "work") {
-                    offsetPosition *= 1.05;
+                if(element.id === "work") {
+                    offsetPosition *= 1;
                }
-               else if (element.id == "skills") {
-                offsetPosition *= 1.05;
+               else if (element.id === "skills") {
+                offsetPosition *= 0.975;
             }
-               else if (element.id == "about") {
+               else if (element.id === "about") {
                    offsetPosition *= 0.975;
                }
             }

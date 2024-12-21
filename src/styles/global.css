@@ -2,7 +2,7 @@
 
 /* Section */
 .section {
-    padding: 8rem 20vw 0rem;
+    padding: 2rem 15vw 0rem;
     background-color: var(--background);
     position: relative;
 }
@@ -61,12 +61,6 @@
     background-color: var(--primary85);
     color: white;
     transform: translateY(-2px);
-}
-
-@media (max-width: 1440px) {
-    .section {
-        padding: 2rem 10vw 0rem;
-    }
 }
 
 @media (max-width: 768px) {

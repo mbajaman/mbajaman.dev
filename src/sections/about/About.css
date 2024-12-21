@@ -7,14 +7,12 @@
 
 .about-content {
     flex: 1;
-    padding: 6rem 10vw 0rem;
 }
 
 .about-section {
     display: flex;
     gap: 4rem;
-    max-width: 1200px;
-    margin: 0 auto;
+    padding: 6rem 15%;
     align-items: flex-start;
 }
 
