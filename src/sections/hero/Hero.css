@@ -67,9 +67,6 @@
     max-width: 100%;
     height: auto;
     border-radius: 10px;
-    /*TODO: cleanup after feedback */
-    /* mix-blend-mode: multiply; */
-    /* filter: hue-rotate(33.5deg); */
 }
 
 /* Add these styles after the hero-text h2 styles */

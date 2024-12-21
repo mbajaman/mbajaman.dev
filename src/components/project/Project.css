@@ -17,9 +17,6 @@
     position: relative;
     height: auto;
     width: 100%;
-    /*TODO: Cleanup */
-    /* max-width: 350px; */
-    /* cursor: pointer; */
     animation: fadeIn 0.5s ease;
     border-radius: 12px;
     overflow: hidden;
@@ -97,9 +94,6 @@
 .project-card__tags--static {
     display: flex;
     position: relative;
-    /*TODO: Cleanup */
-    /* top: 1rem; */
-    /* left: 1rem; */
     padding: 1rem 1rem;
     z-index: 1;
     display: flex;
