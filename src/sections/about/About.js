@@ -63,8 +63,8 @@ const About = () => {
                                 <span className="value">BTech (opt. Games Development)</span>
                             </div>
                             <div className="info-item">
-                                <span className="label">Portfolio Status</span>
-                                <span className="value">Actively Updated</span>
+                                <span className="label">Currently Learning</span>
+                                <span className="value">UE5 Tools Programming</span>
                             </div>
                         </div>
 

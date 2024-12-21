@@ -86,7 +86,9 @@
 }
 
 .gallery-nav.prev { left: 1rem; }
+.gallery-nav.prev.single { display: none; }
 .gallery-nav.next { right: 1rem; }
+.gallery-nav.next.single { display: none; }
 
 .gallery-dots {
     position: absolute;
@@ -118,11 +120,11 @@
 }
 
 .modal-tag {
-    background: rgba(74, 137, 220, 0.08);
+    background: var(--primary35);
     padding: 0.25rem 0.75rem;
     border-radius: 15px;
     font-size: 0.8rem;
-    color: var(--primary);
+    color: var(--text);
 }
 
 .modal-description h3 {

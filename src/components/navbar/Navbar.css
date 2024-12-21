@@ -181,6 +181,12 @@
     visibility: visible;
 }
 
+@media (max-width: 1440px) {
+    .navbar__desktop {
+        padding: 0 10vw;
+    }
+}
+
 @media (max-width: 768px) {
     .navbar__desktop {
         display: none;

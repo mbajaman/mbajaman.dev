@@ -81,7 +81,7 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
                     </div>
                     
                     <button 
-                        className="gallery-nav prev" 
+                        className={`gallery-nav prev ${project.images.length > 1 ? '' : 'single'}`}
                         onClick={prevImage}
                         aria-label="Previous image"
                     >
@@ -89,7 +89,7 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
                     </button>
 
                     <button 
-                        className="gallery-nav next" 
+                        className={`gallery-nav next ${project.images.length > 1 ? '' : 'single'}`} 
                         onClick={nextImage}
                         aria-label="Next image"
                     >

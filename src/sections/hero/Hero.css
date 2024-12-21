@@ -148,6 +148,12 @@
 }
 
 /* Responsive Design */
+@media (max-width: 1440px) {
+    .hero-section {
+        padding: 5vh 10vw 0;
+    }
+}
+
 @media (max-width: 900px) {
     .hero-section {
         flex-direction: column;

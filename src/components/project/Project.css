@@ -17,8 +17,9 @@
     position: relative;
     height: auto;
     width: 100%;
+    /*TODO: Cleanup */
     /* max-width: 350px; */
-    cursor: pointer;
+    /* cursor: pointer; */
     animation: fadeIn 0.5s ease;
     border-radius: 12px;
     overflow: hidden;
@@ -123,7 +124,7 @@
 }
 
 .project-card__tag {
-    background: var(--primary85);
+    background: var(--primary35);
     padding: 0.25rem 0.75rem;
     border-radius: 15px;
     font-size: 0.8rem;
@@ -132,8 +133,9 @@
 }
 
 .project-card__tags--overlay .project-card__tag {
-    background: var(--secondary30);
-    color: var(--primary);
+    /* TODO: for some reason the text inside this is like tiny bit lower than the center of capsule*/
+    background: var(--primary35);
+    color: var(--text);
     text-shadow: none;
     border: none;
 }
@@ -167,6 +169,7 @@
 .project-card__link {
     display: inline-block;
     padding: 0.5rem 1.25rem;
+    cursor: pointer;
     background-color: var(--primary80);
     color: white;
     text-decoration: none;
