@@ -56,7 +56,7 @@
 .hero-image {
     flex: 0 0 45%;
     display: flex;
-    justify-content: center;
+    justify-content: flex-end;
     align-items: center;
     padding: 2rem 0 2rem;
     background-color: var(--background);
@@ -67,8 +67,9 @@
     max-width: 100%;
     height: auto;
     border-radius: 10px;
+    /*TODO: cleanup after feedback */
     /* mix-blend-mode: multiply; */
-    filter: hue-rotate(33.5deg);
+    /* filter: hue-rotate(33.5deg); */
 }
 
 /* Add these styles after the hero-text h2 styles */
@@ -165,6 +166,7 @@
     .hero-image {
         margin-top: 2rem;
         padding: 0;
+        justify-content: center;
     }
 
     .hero-image img {

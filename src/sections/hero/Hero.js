@@ -4,7 +4,8 @@ import { TypeAnimation } from 'react-type-animation'
 import './Hero.css'
 
 // Import GIF Illustration
-import workGif from './work.gif'
+//TODO cleanup gif situation depending on feedback
+import workGif from './test.png'
 
 // Import social icons
 import emailIcon from '@assets/social-icons/email.svg'
