@@ -56,12 +56,20 @@ const About = () => {
                             </div>
                             <div className="info-item">
                                 <span className="label">Email</span>
-                                <span className="value">mohammed_bajaman@hotmail.com</span>
+                                <a href="mailto:mohammed_bajaman@hotmail.com" className="value">mohammed_bajaman@hotmail.com</a>
                             </div>
                             <div className="info-item">
                                 <span className="label">Degree</span>
                                 <span className="value">BTech (opt. Games Development)</span>
                             </div>
+                            <div className="info-item">
+                                <span className="label">Currently Learning</span>
+                                <span className="value">UE5 Tools Programming</span>
+                            </div>
+                        </div>
+
+                        <div className="quick-info-cover">
+
                         </div>
                         
                         <div className="peeking-icons">

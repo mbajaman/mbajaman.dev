@@ -1,6 +1,6 @@
 {
-  "name": "mbajaman.dev",
-  "short_name": "mb-dev",
+  "name": "MyWebSite",
+  "short_name": "MySite",
   "icons": [
     {
       "src": "/web-app-manifest-192x192.png",

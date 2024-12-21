@@ -1,10 +1,10 @@
 /* Color Theme */
 /* Light Theme */
 :root{
-  --text: #0b0909;
-  --background: #fffafb;
-  --primary: #033f77;
-  --secondary: #8ea3d2;
+  --text: white;
+  --background: #22223b;
+  --primary: #8980f5;
+  --secondary: #4a4e69;
   --accent: #0a1129;
   --text5: color-mix(in srgb, var(--text) 5%, transparent);
   --text10: color-mix(in srgb, var(--text) 10%, transparent);
@@ -64,7 +64,7 @@
   --primary90: color-mix(in srgb, var(--primary) 90%, transparent);
   --primary95: color-mix(in srgb, var(--primary) 95%, transparent);
   --secondary5: color-mix(in srgb, var(--secondary) 5%, transparent);
-  --secondary10: color-mix(in srgb, var(--secondary) 10%, transparent);
+  --secondary10: color-mix(in srgb, var(--secondary) 10%, var(--secondary) 10%);
   --secondary15: color-mix(in srgb, var(--secondary) 15%, transparent);
   --secondary20: color-mix(in srgb, var(--secondary) 20%, transparent);
   --secondary25: color-mix(in srgb, var(--secondary) 25%, transparent);

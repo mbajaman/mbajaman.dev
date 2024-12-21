@@ -15,7 +15,7 @@
                 "assets/project-media/hypergoap/hgoap-markov-pcg-2.png"
             ],
             "githubLink": "https://github.com/mbajaman/HyperGoap",
-            "tags": ["C++", "UE5", "Procedural Content Generation", "AI"]
+            "tags": ["C++", "UE5", "PCG", "AI"]
         },
         {
             "name": "SAD",
@@ -29,11 +29,13 @@
                 "Cel-shading for rendering.",
                 "CI/CD pipeline for automated testing."
             ],
+            "_comment" : "TODO: Replace images 2-4, they have blue light filter in them 😭",
             "images": [
                 "assets/project-media/sad/sad.png",
                 "assets/project-media/sad/sad-1.png",
                 "assets/project-media/sad/sad-2.png",
-                "assets/project-media/sad/sad-3.png"
+                "assets/project-media/sad/sad-3.png",
+                "assets/project-media/sad/sad-4.png"
             ],
             "githubLink": "https://github.com/mbajaman/SAD",
             "tags": ["C++", "Game Engine", "Shaders"]
@@ -88,14 +90,14 @@
             "name": "Trial Date Calculator",
             "description": "A tool to automate calendar invites/reminders for important deadlines leading up to the trial date.",
             "details": [
-                "In-house tool built using Sharepoint Online Power Automate for a law firm.",
+                "In-house tool built using Sharepoint Online and Power Automate for a law firm.",
                 "Hosted on a local Flask server.",
                 "Automated hour long process of setting up calendar invites and Outlook tasks down to 5 minutes."
             ],
             "images": [
                 "assets/project-media/trialdatecalc/trialdatecalc.jpg"
             ],
-            "tags": ["Python", "Sharepoint", "Power Automate", "Flask"]
+            "tags": ["Python", "Flask", "SPO", "Power Automate"]
         },
         {
             "name": "Octopations",
@@ -112,7 +114,7 @@
                 "assets/project-media/octopations/octopations-2.png"
             ],
             "otherLink": "https://globalgamejam.org/games/2024/octopations-4",
-            "tags": ["C++", "UE5", "Party Game", "Game Jam"]
+            "tags": ["C++", "UE5", "Party", "Game Jam"]
         },
         {
             "name": "Cownado",
@@ -129,7 +131,7 @@
             ],
             "itchLink": "https://jake-pauls.itch.io/cownado",
             "githubLink": "https://github.com/20TB-ZipBomb/BGJ2024",
-            "tags": ["GDScript", "Godot", "Party Game", "Game Jam"]
+            "tags": ["GDScript", "Godot", "Party", "Game Jam"]
         },
         {
             "name": "Windows Image Deployment",
@@ -142,7 +144,7 @@
             "images": [
                 "assets/project-media/wid/wid.jpg"
             ],
-            "tags": ["Powershell", "Bash", "PDQ", "Microsoft Deployment Toolkit"]
+            "tags": ["Powershell", "Bash", "PDQ", "MDT"]
         },
         {
             "name": "Hamstars",

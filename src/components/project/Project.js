@@ -104,6 +104,8 @@ const Project = () => {
                                     alt={project.name}
                                 />
                             </div>
+
+                            <h3 className="project-card__title">{project.name}</h3>
                             <div className="project-card__tags project-card__tags--static">
                                 {project.tags.map((tag) => (
                                     <span key={tag} className="project-card__tag">
@@ -111,7 +113,6 @@ const Project = () => {
                                     </span>
                                 ))}
                             </div>
-                            <h3 className="project-card__title">{project.name}</h3>
                             
                             <div className="project-card__overlay">
                                 <div className="project-card__tags project-card__tags--overlay">
