@@ -11,6 +11,7 @@ import workGif from './test.png'
 import emailIcon from '@assets/social-icons/email.svg'
 import githubIcon from '@assets/social-icons/github.svg'
 import linkedinIcon from '@assets/social-icons/linkedin.svg'
+import linkedinIconAbout from '@assets/social-icons/linkedin-about.svg'
 import itchIcon from '@assets/social-icons/itchio.svg'
 
 
@@ -34,6 +35,7 @@ const Hero = () => {
         { name: 'Email', url: 'mailto:mohammed_bajaman@hotmail.com', title: 'mohammed_bajaman@hotmail.com', icon: emailIcon },
         { name: 'GitHub', url: 'https://github.com/mbajaman', title: 'https://github.com/mbajaman', icon: githubIcon },
         { name: 'LinkedIn', url: 'https://www.linkedin.com/in/mbajaman/', title: 'https://www.linkedin.com/in/mbajaman/', icon: linkedinIcon },
+        // { name: 'LinkedIn', url: 'https://www.linkedin.com/in/mbajaman/', title: 'https://www.linkedin.com/in/mbajaman/', icon: linkedinIconAbout },
         { name: 'Itch', url: 'https://mbajaman.itch.io/', title: 'https://mbajaman.itch.io/', icon: itchIcon }
     ];
 
@@ -83,7 +85,7 @@ const Hero = () => {
                             View My Work
                         </div>
                         <Link to="https://www.linkedin.com/in/mbajaman/" className="secondary-button">
-                        <img src={linkedinIcon} alt="LinkedIn" className='button-icon'/>
+                        <img src={linkedinIconAbout} alt="LinkedIn" className='button-icon'/>
                         Let's Connect
                         </Link>
                     </div>
