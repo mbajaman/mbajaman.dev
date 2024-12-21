@@ -1,7 +1,9 @@
+@import './theme.css';
+
 /* Section */
 .section {
-    padding: 2rem 10%;
-    background-color: white;
+    padding: 2rem 15vw 0rem;
+    background-color: var(--background);
     position: relative;
 }
 
@@ -9,9 +11,10 @@
 .section-title {
     display: inline-block;
     position: relative;
-    font-size: 2.5rem;
-    font-weight: 600;
-    margin-bottom: 3rem;
+    font-size: 3rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    margin: 4rem 0 4rem 0;
 }
 
 .section-title::after {
@@ -21,7 +24,7 @@
     bottom: -10px;
     width: 60px;
     height: 3px;
-    background-color: #0984e3;
+    background-color: var(--primary);
 }
 
 /* Buttons */
@@ -39,25 +42,31 @@
 }
 
 .primary-button {
-    background-color: #0984e3;
-    color: white;
+    background-color: var(--primary85);
+    color: var(--text);
 }
 
 .primary-button:hover {
-    background-color: #0773c5;
+    background-color: var(--primary);
     transform: translateY(-2px);
 }
 
 .secondary-button {
-    border: 2px solid #0984e3;
-    color: #0984e3;
+    border: 2px solid var(--primary60);
+    color: var(--text);
     gap: 8px;
 }
 
 .secondary-button:hover {
-    background-color: #0984e3;
+    background-color: var(--primary85);
     color: white;
     transform: translateY(-2px);
+}
+
+@media (max-width:1440px) {
+    .section {
+        padding: 2rem 10vw 0rem;
+    }
 }
 
 @media (max-width: 768px) {
@@ -65,6 +74,10 @@
     .section {
         padding: 4rem 5%;
         overflow: hidden;
+    }
+
+    .section-title {
+        font-size: 2.5rem;
     }
 
     /* Buttons */

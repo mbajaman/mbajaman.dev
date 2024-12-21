@@ -15,7 +15,7 @@
                 "assets/project-media/hypergoap/hgoap-markov-pcg-2.png"
             ],
             "githubLink": "https://github.com/mbajaman/HyperGoap",
-            "tags": ["C++", "UE5", "Procedural Content Generation", "AI"]
+            "tags": ["C++", "UE5", "PCG", "AI"]
         },
         {
             "name": "SAD",
@@ -29,7 +29,9 @@
                 "Cel-shading for rendering.",
                 "CI/CD pipeline for automated testing."
             ],
+            "_comment" : "TODO: Replace images 2-4, they have blue light filter in them 😭",
             "images": [
+                "assets/project-media/sad/sad.png",
                 "assets/project-media/sad/sad-1.png",
                 "assets/project-media/sad/sad-2.png",
                 "assets/project-media/sad/sad-3.png",
@@ -83,6 +85,85 @@
             "githubLink": "https://github.com/mbajaman/FocusBreakout",
             "youtubeLink": "https://www.youtube.com/watch?v=ah-MSnVxhL4",
             "tags": ["C#", "Unity", "Level Design", "Action"]
+        },
+        {
+            "name": "Trial Date Calculator",
+            "description": "A tool to automate calendar invites/reminders for important deadlines leading up to the trial date.",
+            "details": [
+                "In-house tool built using Sharepoint Online and Power Automate for a law firm.",
+                "Hosted on a local Flask server.",
+                "Automated hour long process of setting up calendar invites and Outlook tasks down to 5 minutes."
+            ],
+            "images": [
+                "assets/project-media/trialdatecalc/trialdatecalc.jpg"
+            ],
+            "tags": ["Python", "Flask", "SPO", "Power Automate"]
+        },
+        {
+            "name": "Octopations",
+            "description": "A Jackbox-style party game creted for the Global Game Jam 2024.",
+            "details": [
+                "Players take turns convincing the Hiring Manager (an octopus) that they are PERFECT for the job based on their past experiences.",
+                "A UI based party game create in UE5.",
+                "UI elements created using Unreal's UMG.",
+                "Gameplay mechanics created using Blueprints."
+            ],
+            "images": [
+                "assets/project-media/octopations/octopations.png",
+                "assets/project-media/octopations/octopations-1.png",
+                "assets/project-media/octopations/octopations-2.png"
+            ],
+            "otherLink": "https://globalgamejam.org/games/2024/octopations-4",
+            "tags": ["C++", "UE5", "Party", "Game Jam"]
+        },
+        {
+            "name": "Cownado",
+            "description": "An action-arcade game where you move cows to safety during a ridiculous storm. Created for the Brackeys Game Jam 2024.",
+            "details": [
+                "A 2D action-arcade game created in Godot.",
+                "Gameplay mechanics created using GDScript."
+            ],
+            "images": [
+                "assets/project-media/cownado/cownado.png",
+                "assets/project-media/cownado/cownado-1.png",
+                "assets/project-media/cownado/cownado-2.png",
+                "assets/project-media/cownado/cownado-3.png"
+            ],
+            "itchLink": "https://jake-pauls.itch.io/cownado",
+            "githubLink": "https://github.com/20TB-ZipBomb/BGJ2024",
+            "tags": ["GDScript", "Godot", "Party", "Game Jam"]
+        },
+        {
+            "name": "Windows Image Deployment",
+            "description": "Streamlined and optimized the deployment of Windows images as part of the Harper Grey LLP equipment refresh process.",
+            "details": [
+                "Reduced imaging time from 1 hour to 10 minutes.",
+                "Cleaned up and optimized package/software deployment process using PDQ.",
+                "Managed the deployment of over 200 computers and laptops at the firm."
+            ],
+            "images": [
+                "assets/project-media/wid/wid.jpg"
+            ],
+            "tags": ["Powershell", "Bash", "PDQ", "MDT"]
+        },
+        {
+            "name": "Hamstars",
+            "description": "Compete with up to 4 friends as a hamster in this fast-paced peanut hoarding brawl. Created during the Town One Game Jam, May 2022.",
+            "details": [
+                "Winner of the Town One Artisan Award 🎨",
+                "Created using Unity",
+                "Hop in a hamster ball and squash the competition.",
+                "Collect and hoard peanuts before time runs out."
+            ],
+            "images": [
+                "assets/project-media/hamstars/hamstars.png",
+                "assets/project-media/hamstars/hamstars-1.png",
+                "assets/project-media/hamstars/hamstars-2.png",
+                "assets/project-media/hamstars/hamstars-3.png"
+            ],
+            "githubLink": "https://github.com/jake-pauls/Hamstars/tree/develop",
+            "itchLink": "https://jake-pauls.itch.io/hamstars?secret=VC7My4gAvWGomMn0pWjmA0heJQ",
+            "tags": ["C#", "Unity", "Game Jam"]
         }
     ]
 }

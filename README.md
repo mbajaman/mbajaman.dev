@@ -1,15 +1,15 @@
 # Mohammed Bajaman Portfolio Website
 
-A modern, responsive portfolio website built with React, showcasing my work as a software engineer, game developer, and IT solutions analyst.
+A modern, responsive portfolio website built with React, showcasing my work.
 
 ## 🌐 Live Site
 
 Visit the live site at [mbajaman.dev](https://mbajaman.dev)
+Visit the staging site at [staging.mbajaman.dev](https://staging.mbajaman.dev)
 
 ## 🛠️ Built With
 
 - React.js
-- React Router DOM
 - React Type Animation
 - CSS3
 
@@ -55,15 +55,26 @@ npm run build
 
 ## 📁 Project Structure
 src/<br /> 
-├── components/<br /> 
-│ ├── navbar/<br /> 
-│ ├── footer/<br /> 
-│ └── ParticleBackground/<br /> 
-├── pages/<br /> 
-│ ├── home/<br /> 
-│ ├── work/<br />
-│ └── about/<br /> 
 ├── assets/<br /> 
+│ ├── about-icons/<br /> 
+│ ├── flag-icons/<br /> 
+│ ├── project-media/<br /> 
+│ ├── skill-icons/<br /> 
+│ └── social-icons/<br /> 
+├── components/<br /> 
+│ ├── footer/<br /> 
+│ ├── modal/<br /> 
+│ ├── navbar/<br /> 
+│ └── project/<br /> 
+├── data/<br /> 
+├── pages/<br /> 
+│ └── home/<br /> 
+├── sections/<br /> 
+│ ├── about/<br /> 
+│ ├── hero/<br /> 
+│ ├── skills/<br /> 
+│ └── work/<br /> 
+├── styles/<br /> 
 └── App.js
 
 
@@ -72,7 +83,7 @@ src/<br />
 The site can be configured by modifying:
 - Social media links in `Footer.js`
 - Navigation items in `Navbar.js`
-- Particle effect settings in `ParticleBackground.js`
+-  TODO: Add some lines about theme configuration
 
 ## 📱 Responsive Design
 

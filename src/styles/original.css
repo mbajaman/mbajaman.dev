@@ -1,0 +1,16 @@
+:root {
+    --background-color: #fff;
+    --primary-color: #0984e3;
+    --navtext-color: #636e72;
+    --text: #2d3436;
+    --secondary-color: #f8f9fa;
+    --text-hero-section: #4a4a4a;
+    --hero-subtitle: #636e72;
+    --hero-image: #e8f0fe;
+    --bg-section: white;
+    --section-title-after: #0984e3;
+    --primary-button: #0984e3;
+    --primary-button-hover: #0773c5;
+    --secondary-button: #0984e3;
+    --secondary-button-hover: #0984e3;
+}

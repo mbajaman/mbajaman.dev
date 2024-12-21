@@ -1,20 +1,18 @@
 .about-container {
-    min-height: 100vh;
+    min-height: 90vh;
     display: flex;
     flex-direction: column;
-    background-color: white;
+    background-color: var(--background);
 }
 
 .about-content {
     flex: 1;
-    padding: 4rem 10% 2rem;
 }
 
 .about-section {
     display: flex;
     gap: 4rem;
-    max-width: 1200px;
-    margin: 0 auto;
+    padding: 6rem 15%;
     align-items: flex-start;
 }
 
@@ -62,21 +60,22 @@
 }
 
 .about-text h1 {
-    font-size: 2.5rem;
-    color: #2d3436;
+    font-weight: 400;
+    font-size: 3rem;
+    letter-spacing: 1px;
+    color: var(--text);
     margin: 0 0 0.5rem;
-    font-weight: 600;
 }
 
 .about-subtitle {
     font-size: 1.2rem;
-    color: #0984e3;
+    color: var(--primary90);
     margin-bottom: 2rem;
     font-weight: 500;
 }
 
 .about-description p {
-    color: #636e72;
+    color: var(--text);
     line-height: 1.6;
     margin-bottom: 1rem;
     font-size: 1.1rem;
@@ -89,7 +88,7 @@
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
     gap: 2rem;
-    background: white;
+    background: #2a2b44;
     padding: 2rem;
     border-radius: 12px;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.05);
@@ -104,7 +103,7 @@
 
 .info-item .label {
     font-size: 0.9rem;
-    color: #0984e3;
+    color: var(--primary);
     font-weight: 500;
     text-transform: uppercase;
     letter-spacing: 0.5px;
@@ -112,7 +111,7 @@
 
 .info-item .value {
     font-size: 1.1rem;
-    color: #2d3436;
+    color: var(--text70);
     word-break: break-word;
 }
 
@@ -125,7 +124,7 @@
     position: absolute;
     width: 90%;
     height: 0;
-    bottom: calc(100% + 48px);
+    bottom: calc(100% + 50px);
     left: 0;
     right: 0;
     margin: 0 auto;
@@ -169,16 +168,16 @@
 }
 
 .peek-icon-wrapper:hover {
-    transform: translateY(0) rotate(0deg) !important;
+    transform: translateY(-5px) rotate(0deg) !important;
 }
 
 .chat-bubble {
     position: absolute;
-    background: white;
+    background: #2b2c43;
     border-radius: 12px;
     padding: 8px 12px;
     font-size: 0.9rem;
-    color: #2d3436;
+    color: var(--text);
     top: -40px;
     left: 50%;
     transform: translateX(-50%) translateY(-100%);
@@ -218,6 +217,12 @@
     border-radius: 2px;
 }
 
+@media (max-width: 1440px) {
+    .about-section {
+        padding: 4rem 10%;
+    }
+}
+
 @media (max-width: 1024px) {
     .about-section {
         flex-direction: column;
@@ -228,7 +233,7 @@
         flex: 0 0 auto;
         max-width: 400px;
         width: 100%;
-        margin: 0 auto;
+        margin: 0 0;
     }
 
     .about-text {
@@ -237,14 +242,11 @@
 }
 
 @media (max-width: 768px) {
-    .about-content {
-        padding: 5rem 5% 3rem;
-    }
 
     .about-text h1 {
-        font-size: 2rem;
+        font-size: 2.5rem;
     }
-
+    
     .subtitle {
         font-size: 1.1rem;
     }
@@ -256,6 +258,10 @@
     .quick-info {
         padding: 1.5rem;
         gap: 1.5rem;
+    }
+
+    .peeking-icons {
+        bottom: calc(100% + 40px);
     }
 
     .peek-icon-wrapper {
