@@ -83,28 +83,38 @@ src/<br />
 The site can be configured by modifying:
 - Social media links in `Footer.js`
 - Navigation items in `Navbar.js`
--  TODO: Add some lines about theme configuration
+- Sections are in the `src\sections` folder.
+- Global stylesheet located in `global.css`
+- Current theme vars in `theme.css`
 
 ## 📱 Responsive Design
 
-The website is fully responsive and optimized for:
+The website is responsive and optimized for:
+<br/><br/>```⚠️ Safari has issues and needs to be tested```
 - Desktop (1200px and above)
 - Tablet (768px to 1199px)
 - Mobile (below 768px)
 
 ## 🚀 Deployment
 The site is configured for deployment on GitHub Pages. To deploy:
+Configure CNAME and appropriate homepage variable before deploying using:
 ```bash
-npm run deploy
+npm run predeploy:prod
 ```
+
+Deploy using:
+```bash
+npm run deploy:prod
+```
+
+Similarly for staging
+```bash
+npm run predeploy:staging
+npm run deploy:staging
+```
+
+Links and config for prod and staging can be found in `package.json`, `scripts/set-cname.js` and `scripts/set-homepage.js`
 
 ## 📄 License
 
 This project is licensed under the MIT License - see the LICENSE file for details.
-
-## 📬 Contact
-
-Mohammed Bajaman
-- LinkedIn: [mbajaman](https://www.linkedin.com/in/mbajaman/)
-- GitHub: [mbajaman](https://github.com/mbajaman)
-- Portfolio: [mbajaman.dev](https://mbajaman.dev)
