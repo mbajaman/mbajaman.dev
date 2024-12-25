@@ -75,7 +75,7 @@
     top: 50%;
     transform: translateY(-50%);
     background: var(--background45);
-    color: var(--primary);
+    color: var(--text);
     border: none;
     width: 40px;
     height: 40px;

@@ -1,12 +1,13 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState } from 'react'
 import './Project.css'
 import projectsData from '@data/projects.json'
 import ProjectModal from '@components/modal/ProjectModal'
 
 const Project = () => {
     const { projects } = projectsData
-    const [selectedTag, setSelectedTag] = useState('all')
-    const [filteredProjects, setFilteredProjects] = useState(projects)
+    // TODO: Decide if we want to filter projects by tags
+    // const [selectedTag, setSelectedTag] = useState('all')
+    // const [filteredProjects, setFilteredProjects] = useState(projects)
     const [selectedProject, setSelectedProject] = useState(null)
     
     // Function to get image URL dynamically
@@ -18,28 +19,28 @@ const Project = () => {
         }
     }
 
-    // Separate programming languages from other tags
-    const programmingTags = ['C#', 'C++', 'Python', 'JavaScript']
-    const otherTags = ['UE5', 'Unity', 'Procedural Generation', 'AI', 'Storytelling', 'Level Design', 'Shaders']
+    // // Separate programming languages from other tags
+    // const programmingTags = ['C#', 'C++', 'Python', 'JavaScript']
+    // const otherTags = ['UE5', 'Unity', 'Procedural Generation', 'AI', 'Storytelling', 'Level Design', 'Shaders']
     
-    // Get unique tags from all projects, separated by category
-    const allProgrammingTags = ['all', ...new Set(projects.flatMap(project => 
-        project.tags.filter(tag => programmingTags.includes(tag))
-    ))]
-    const allOtherTags = [...new Set(projects.flatMap(project => 
-        project.tags.filter(tag => otherTags.includes(tag))
-    ))]
+    // // Get unique tags from all projects, separated by category
+    // const allProgrammingTags = ['all', ...new Set(projects.flatMap(project => 
+    //     project.tags.filter(tag => programmingTags.includes(tag))
+    // ))]
+    // const allOtherTags = [...new Set(projects.flatMap(project => 
+    //     project.tags.filter(tag => otherTags.includes(tag))
+    // ))]
 
-    useEffect(() => {
-        if (selectedTag === 'all') {
-            setFilteredProjects(projects)
-        } else {
-            const filtered = projects.filter(project => 
-                project.tags.includes(selectedTag)
-            )
-            setFilteredProjects(filtered)
-        }
-    }, [selectedTag, projects])
+    // useEffect(() => {
+    //     if (selectedTag === 'all') {
+    //         setFilteredProjects(projects)
+    //     } else {
+    //         const filtered = projects.filter(project => 
+    //             project.tags.includes(selectedTag)
+    //         )
+    //         setFilteredProjects(filtered)
+    //     }
+    // }, [selectedTag, projects])
 
     const openModal = (project) => {
         setSelectedProject(project)
@@ -92,7 +93,7 @@ const Project = () => {
             </div>
              */}
             <div className="project__content">
-                {filteredProjects.map((project) => (
+                {projects.map((project) => (
                     <div 
                         className="project-card"
                         key={project.name}

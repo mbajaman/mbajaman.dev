@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useMemo } from 'react';
 import './ProjectModal.css';
 
 // Import icons
@@ -21,7 +21,9 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
     }
 
     // Get all image URLs
-    const images = project.images?.map(path => getImageUrl(path)) || [];
+    const images = useMemo(() => {
+        return project.images?.map(path => getImageUrl(path)) || [];
+    }, [project.images]);
 
     // Preload images when modal opens
     useEffect(() => {
