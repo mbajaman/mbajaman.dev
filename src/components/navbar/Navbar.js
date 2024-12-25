@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from 'react'
 import './Navbar.css'
 
+/* TODO: Create light/dark mode toggle*/
+/* TODO: Create a download Resume button on Navbar (desktop & mobile) */
 const Navbar = () => {
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [activeSection, setActiveSection] = useState('home');

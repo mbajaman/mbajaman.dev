@@ -3,9 +3,8 @@ import { Link } from 'react-router-dom'
 import { TypeAnimation } from 'react-type-animation'
 import './Hero.css'
 
-// Import GIF Illustration
-//TODO cleanup gif situation depending on feedback
-import workGif from './test.png'
+// Import Illustration
+import workGif from './work.png'
 
 // Import social icons
 import emailIcon from '@assets/social-icons/email.svg'
@@ -31,6 +30,7 @@ const Hero = () => {
         2000
     ];
 
+    /* TODO: Add these social link icons on mobile version as well */
     const socialLinks = [
         { name: 'Email', url: 'mailto:mohammed_bajaman@hotmail.com', title: 'mohammed_bajaman@hotmail.com', icon: emailIcon },
         { name: 'GitHub', url: 'https://github.com/mbajaman', title: 'https://github.com/mbajaman', icon: githubIcon },

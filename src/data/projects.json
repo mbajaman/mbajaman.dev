@@ -113,7 +113,7 @@
                 "assets/project-media/octopations/octopations-1.png",
                 "assets/project-media/octopations/octopations-2.png"
             ],
-            "otherLink": "https://globalgamejam.org/games/2024/octopations-4",
+            "webLink": "https://globalgamejam.org/games/2024/octopations-4",
             "tags": ["C++", "UE5", "Party", "Game Jam"]
         },
         {
@@ -163,7 +163,9 @@
             ],
             "githubLink": "https://github.com/jake-pauls/Hamstars/tree/develop",
             "itchLink": "https://jake-pauls.itch.io/hamstars?secret=VC7My4gAvWGomMn0pWjmA0heJQ",
-            "tags": ["C#", "Unity", "Game Jam"]
+            "tags": ["C#", "Unity", "Game Jam"],
+            "_comment": "TODO: Add the AI projects with the research papers",
+            "_comment2" : "TODO: Maybe a couple more IT projects? (DM System Migration, Adobe Licensing Project)"
         }
     ]
 }
