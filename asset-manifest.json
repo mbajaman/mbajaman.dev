@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.2ba7cded.css",
-    "main.js": "/static/js/main.c99e4959.js",
+    "main.css": "/static/css/main.5206cfe4.css",
+    "main.js": "/static/js/main.39231814.js",
     "static/js/453.81a0e1db.chunk.js": "/static/js/453.81a0e1db.chunk.js",
     "static/media/illume-logo.png": "/static/media/illume-logo.6ed295d9a7735fa6d2c1.png",
     "static/media/fb-lvl1.png": "/static/media/fb-lvl1.560d2a11251ffdccfbb4.png",
@@ -12,7 +12,6 @@
     "static/media/illume-landing.png": "/static/media/illume-landing.848eb264c04ec1d56cf1.png",
     "static/media/illume-start.png": "/static/media/illume-start.2b935c138b6a1197c385.png",
     "static/media/hamstars-1.png": "/static/media/hamstars-1.6915adf1520706f2ac7c.png",
-    "static/media/work.gif": "/static/media/work.bdf392222a6a3f2fc027.gif",
     "static/media/hamstars.png": "/static/media/hamstars.0fce3b892a35c3a28532.png",
     "static/media/fb-lvl2.png": "/static/media/fb-lvl2.fb77171b27b27751c371.png",
     "static/media/hamstars-2.png": "/static/media/hamstars-2.1220b018c3e2ad39f6a0.png",
@@ -32,12 +31,10 @@
     "static/media/hgoap-ai2.png": "/static/media/hgoap-ai2.9556e4089d810303a83b.png",
     "static/media/site-image.old.png": "/static/media/site-image.old.4e55bb4e7ecfd1494479.png",
     "static/media/site-image.png": "/static/media/site-image.a4a164d28b452049e704.png",
-    "static/media/test.png": "/static/media/test.02a051a8a6e483c4111a.png",
-    "static/media/work.png": "/static/media/work.c55ecd35735f25ef5321.png",
+    "static/media/work.png": "/static/media/work.02a051a8a6e483c4111a.png",
     "static/media/cownado-2.png": "/static/media/cownado-2.2fcd8f3595ef481a33af.png",
     "static/media/trialdatecalc.jpg": "/static/media/trialdatecalc.eb2b325b13adbedf394e.jpg",
     "static/media/sad.png": "/static/media/sad.7bea67300d85feb9b3e9.png",
-    "static/media/test.jpg": "/static/media/test.812bfe4e443dab2cb949.jpg",
     "static/media/octopations-1.png": "/static/media/octopations-1.18ad3b85938b4bfb868e.png",
     "static/media/sad-1.png": "/static/media/sad-1.18987e1c2d9481881ce4.png",
     "static/media/sad-3.png": "/static/media/sad-3.dbdac53095514e8516ee.png",
@@ -56,6 +53,9 @@
     "static/media/esports.svg": "/static/media/esports.a6c149815c6ce5d0c08fdd3884a2e1b3.svg",
     "static/media/flag_in.svg": "/static/media/flag_in.f1392c76f9306f0347708164f7ab0498.svg",
     "static/media/itchio.svg": "/static/media/itchio.b7d017071651de4e5cf71fe9f36d317a.svg",
+    "static/media/moon-stars.svg": "/static/media/moon-stars.a6ba2f014fc14df16511.svg",
+    "static/media/sun.svg": "/static/media/sun.a3a5b95a3cce0f7ccea2.svg",
+    "static/media/web.svg": "/static/media/web.ffd6c2cb4d2a7c40828a19d81c0975ae.svg",
     "static/media/github.svg": "/static/media/github.8878fd7b0099db90dae7f405a4cd5494.svg",
     "index.html": "/index.html",
     "static/media/flag_ca.svg": "/static/media/flag_ca.c66522d6510e6eff098d.svg",
@@ -67,16 +67,17 @@
     "static/media/flag_ae.svg": "/static/media/flag_ae.91c42f1972385ccff2734d3648bacdc1.svg",
     "static/media/flag_nl.svg": "/static/media/flag_nl.f5a54a3b50006fbe7f378cb42eb941e2.svg",
     "static/media/globe.svg": "/static/media/globe.fd53e70a2b56e9258e77.svg",
+    "static/media/moon-space.svg": "/static/media/moon-space.31fd27f5034a1380e965.svg",
     "static/media/bot.svg": "/static/media/bot.67a2f749e774f1324aae.svg",
     "static/media/linkedin-about.svg": "/static/media/linkedin-about.e6a69c0c8c0cf3a3c9724df08b87e373.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.566bbcbeea50b3c2739a65f8aab3689e.svg",
     "static/media/server.svg": "/static/media/server.53c7411ee19f545352ff.svg",
-    "main.2ba7cded.css.map": "/static/css/main.2ba7cded.css.map",
-    "main.c99e4959.js.map": "/static/js/main.c99e4959.js.map",
+    "main.5206cfe4.css.map": "/static/css/main.5206cfe4.css.map",
+    "main.39231814.js.map": "/static/js/main.39231814.js.map",
     "453.81a0e1db.chunk.js.map": "/static/js/453.81a0e1db.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.2ba7cded.css",
-    "static/js/main.c99e4959.js"
+    "static/css/main.5206cfe4.css",
+    "static/js/main.39231814.js"
   ]
 }
