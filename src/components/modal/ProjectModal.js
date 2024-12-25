@@ -1,8 +1,11 @@
 import React, { useState, useEffect } from 'react';
 import './ProjectModal.css';
+
+// Import icons
+import itchIcon from '../../assets/social-icons/itchio.svg';
 import githubIcon from '../../assets/social-icons/github.svg';
 import youtubeIcon from '../../assets/social-icons/youtube.svg';
-import itchIcon from '../../assets/social-icons/itchio.svg';
+import webIcon from '../../assets/social-icons/web.svg';
 
 const ProjectModal = ({ project, isOpen, onClose }) => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -141,15 +144,17 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
                                 itch.io
                             </a>
                         )}
-                        <a 
-                            href={project.githubLink} 
-                            className="modal-button secondary-button"
-                            target="_blank"
-                            rel="noopener noreferrer"
-                        >
-                            <img className="modal-button-icon" src={githubIcon} alt="GitHub" />
-                            GitHub
-                        </a>
+                        {project.githubLink && (
+                            <a 
+                                href={project.githubLink} 
+                                className="modal-button secondary-button"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <img className="modal-button-icon" src={githubIcon} alt="GitHub" />
+                                GitHub
+                            </a>
+                        )}
                         {project.youtubeLink && (
                             <a 
                                 href={project.youtubeLink} 
@@ -159,6 +164,17 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
                         >
                             <img className="modal-button-icon" src={youtubeIcon} alt="YouTube" />
                             YouTube
+                        </a>
+                        )}
+                        {project.webLink && (
+                            <a 
+                                href={project.webLink} 
+                                className="modal-button secondary-button"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                        >
+                            <img className="modal-button-icon" src={webIcon} alt="YouTube" />
+                            Website
                         </a>
                         )}
                     </div>
