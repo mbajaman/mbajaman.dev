@@ -12,7 +12,7 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
-/* TODO: Update scrollbar styling */
+/*FEATURE: Maybe look into implementing smooth-scrollbar from npm https://www.npmjs.com/package/smooth-scrollbar  */
 /* Modern scrollbar styling */
 ::-webkit-scrollbar {
   width: 8px;
@@ -24,18 +24,18 @@ code {
 }
 
 ::-webkit-scrollbar-thumb {
-  background: rgba(9, 132, 227, 0.3);  /* #0984e3 with opacity */
+  background: var(--primary50);  /* #8980f5 with opacity */
   border-radius: 4px;
 }
 
 ::-webkit-scrollbar-thumb:hover {
-  background: rgba(9, 132, 227, 0.5);
+  background: var(--primary75);
 }
 
 /* Firefox scrollbar styling */
 * {
   scrollbar-width: thin;
-  scrollbar-color: rgba(9, 132, 227, 0.3) transparent;
+  scrollbar-color: var(--primary50) transparent;
 }
 
 /* Hide scrollbar when not scrolling, but keep functionality */
