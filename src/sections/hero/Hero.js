@@ -10,7 +10,7 @@ import workGif from './work.png'
 import emailIcon from '@assets/social-icons/email.svg'
 import githubIcon from '@assets/social-icons/github.svg'
 import linkedinIcon from '@assets/social-icons/linkedin.svg'
-import linkedinIconAbout from '@assets/social-icons/linkedin-about.svg'
+import linkedinIconButton from '@assets/social-icons/linkedin-button.svg'
 import itchIcon from '@assets/social-icons/itchio.svg'
 
 
@@ -30,7 +30,6 @@ const Hero = () => {
         2000
     ];
 
-    /* TODO: Add these social link icons on mobile version as well */
     const socialLinks = [
         { name: 'Email', url: 'mailto:mohammed_bajaman@hotmail.com', title: 'mohammed_bajaman@hotmail.com', icon: emailIcon },
         { name: 'GitHub', url: 'https://github.com/mbajaman', title: 'https://github.com/mbajaman', icon: githubIcon },
@@ -40,20 +39,6 @@ const Hero = () => {
 
     return (
         <section className="hero-section section-tracker">
-            <div className="hero-social-links-vertical">
-                {socialLinks.map((link) => (
-                    <a 
-                        key={link.name}
-                        href={link.url}
-                        title={link.title}
-                        target="_blank"
-                        rel="noopener noreferrer"
-                        className="social-icon"
-                    >
-                        <img src={link.icon} alt={link.name} />
-                    </a>
-                ))}
-            </div>
             <div className="hero-text">
                 <h1>
                     Hello, I'm
@@ -74,6 +59,20 @@ const Hero = () => {
                     Passionate about creating elegant solutions through code. 
                     Specializing in software engineering, game development, and IT solutions.
                 </p>
+                <div className="hero-social-links-vertical">
+                    {socialLinks.map((link) => (
+                        <a 
+                            key={link.name}
+                            href={link.url}
+                            title={link.title}
+                            target="_blank"
+                            rel="noopener noreferrer"
+                            className="social-icon"
+                        >
+                            <img src={link.icon} alt={link.name} />
+                        </a>
+                    ))}
+                </div>
                 <div className="hero-actions">
                     <div className="cta-buttons">
                         <div 
@@ -84,7 +83,7 @@ const Hero = () => {
                             View My Work
                         </div>
                         <Link to="https://www.linkedin.com/in/mbajaman/" className="secondary-button">
-                        <img src={linkedinIconAbout} alt="LinkedIn" className='button-icon'/>
+                        <img src={linkedinIconButton} alt="LinkedIn" className='button-icon'/>
                         Let's Connect
                         </Link>
                     </div>
