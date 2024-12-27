@@ -28,29 +28,33 @@
     max-height: 90vh;
 }
 
-/* TODO: Spacing is messed up for centering X in middle of button. */
 .modal-close {
     position: absolute;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    line-height: 1;
-    height: 1.75rem;
-    width: 1.75rem;
+    padding: 0; /* Fixes modal close button styling on iPhones*/
+    height: 2rem;
+    width: 2rem;
     top: 0.5rem;
-    right: 0.75rem;
+    right: 0.5rem;
     background: rgba(0, 0, 0, 0.4);
-    border-radius: 12px;
+    border-radius: 20px;
     border: none;
-    font-size: 2rem;
-    color: #fff;
     cursor: pointer;
-    z-index: 2;
-    transition: color 0.3s ease;
+    z-index: 1;
 }
 
-.modal-close:hover {
-    color: #f01e2c;
+.modal-icon {
+    width: 100%;
+    height: 100%;
+    transition: background-color 0.3s ease;
+    background-color: white;
+    mask-size: contain;
+    mask-repeat: no-repeat;
+    mask-position: center;
+    mask-image: url('@assets/cross.svg');
+}
+
+.modal-icon:hover {
+    background-color: #f01e2c;
 }
 
 .modal-gallery {

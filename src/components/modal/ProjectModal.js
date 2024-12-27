@@ -2,10 +2,10 @@ import React, { useState, useEffect, useMemo } from 'react';
 import './ProjectModal.css';
 
 // Import icons
-import itchIcon from '../../assets/social-icons/itchio.svg';
-import githubIcon from '../../assets/social-icons/github.svg';
-import youtubeIcon from '../../assets/social-icons/youtube.svg';
-import webIcon from '../../assets/social-icons/web.svg';
+import itchIcon from '@assets/social-icons/itchio.svg';
+import githubIcon from '@assets/social-icons/github.svg';
+import youtubeIcon from '@assets/social-icons/youtube.svg';
+import webIcon from '@assets/social-icons/web.svg';
 
 const ProjectModal = ({ project, isOpen, onClose }) => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -61,11 +61,10 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
     return (
         <div className="modal-overlay" onClick={onClose}>
             <div className="modal-content" onClick={e => e.stopPropagation()}>
-                <button className="modal-close" onClick={onClose}>&times;</button>
-                
+                <button className="modal-close" onClick={onClose}>
+                    <div className="modal-icon"></div>
+                </button>   
                 <div className="modal-gallery">
-
-                    
                     {/* Image container with loading state */}
                     <div className="modal-image-container">
                         {images.map((src, index) => (
