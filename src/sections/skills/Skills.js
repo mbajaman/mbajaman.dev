@@ -40,7 +40,7 @@ const Skills = () => {
         },
     ];
 
-    /*TODO: Scrolling after last card breaks it 🫡*/
+    /*TODO: Scrolling after last card breaks it on iPhone🫡*/
     const scroll = (direction) => {
         if (skillsGridRef.current) {
             const scrollAmount = direction === 'left' ? -200 : 200;
