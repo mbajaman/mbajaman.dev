@@ -52,6 +52,7 @@ const Hero = () => {
                             speed={50}
                             repeat={Infinity}
                             cursor={true}
+                            preRenderFirstString={true}
                         />
                     </span>
                 </h2>

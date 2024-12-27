@@ -1,4 +1,4 @@
-import React, { useEffect, useRef } from 'react';
+import React, { useRef } from 'react';
 import './Skills.css';
 
 const Skills = () => {
@@ -37,15 +37,15 @@ const Skills = () => {
         },
     ];
 
-    const scroll = (direction) => {
-        if (skillsGridRef.current) {
-            const scrollAmount = direction === 'left' ? -200 : 200;
-            skillsGridRef.current.scrollBy({
-                left: scrollAmount,
-                behavior: 'smooth'
-            });
-        }
-    };
+    // const scroll = (direction) => {
+    //     if (skillsGridRef.current) {
+    //         const scrollAmount = direction === 'left' ? -200 : 200;
+    //         skillsGridRef.current.scrollBy({
+    //             left: scrollAmount,
+    //             behavior: 'smooth'
+    //         });
+    //     }
+    // };
 
     return (
         <section id="skills" className="section section-tracker">
