@@ -99,17 +99,17 @@
 @media (max-width: 768px) {
     .skills-grid {
         display: flex;
-        overflow-x: auto;
+        overflow-x: scroll;
         scroll-behavior: smooth;
         scroll-snap-type: x mandatory;
+        overscroll-behavior: contain;
         gap: 1rem;
-        padding: 0;
-        -ms-overflow-style: none;  /* Hide scrollbar IE and Edge */
-        scrollbar-width: none;  /* Hide scrollbar Firefox */
+        padding: 0.25rem 0 1rem; /* Fixes card getting cutoff when tapping on it on mobile*/
     }
 
     .skills-grid::-webkit-scrollbar {
-        display: none; /* Hide scrollbar Chrome, Safari, Opera */
+        /* display: none; */
+        overflow-x: scroll;
     }
 
     .skill-card {

@@ -1,10 +1,13 @@
-import React, { useState } from 'react'
+// Copy of Project.js but with filter feature.
+import React, { useState, useEffect } from 'react'
 import './Project.css'
 import projectsData from '@data/projects.json'
 import ProjectModal from '@components/modal/ProjectModal'
 
 const Project = () => {
     const { projects } = projectsData
+    const [selectedTag, setSelectedTag] = useState('all')
+    const [filteredProjects, setFilteredProjects] = useState(projects)
     const [selectedProject, setSelectedProject] = useState(null)
     
     // Function to get image URL dynamically
@@ -16,6 +19,29 @@ const Project = () => {
         }
     }
 
+    // Separate programming languages from other tags
+    const programmingTags = ['C#', 'C++', 'Python', 'JavaScript']
+    const otherTags = ['UE5', 'Unity', 'Procedural Generation', 'AI', 'Storytelling', 'Level Design', 'Shaders']
+    
+    // Get unique tags from all projects, separated by category
+    const allProgrammingTags = ['all', ...new Set(projects.flatMap(project => 
+        project.tags.filter(tag => programmingTags.includes(tag))
+    ))]
+    const allOtherTags = [...new Set(projects.flatMap(project => 
+        project.tags.filter(tag => otherTags.includes(tag))
+    ))]
+
+    useEffect(() => {
+        if (selectedTag === 'all') {
+            setFilteredProjects(projects)
+        } else {
+            const filtered = projects.filter(project => 
+                project.tags.includes(selectedTag)
+            )
+            setFilteredProjects(filtered)
+        }
+    }, [selectedTag, projects])
+
     const openModal = (project) => {
         setSelectedProject(project)
     }
@@ -26,8 +52,48 @@ const Project = () => {
 
     return (
         <div className="project">
+            <div className="project__filter">
+                <div className="filter-section">
+                    <span className="filter-label">Technologies</span>
+                    <div className="filter-tags">
+                        {allProgrammingTags.map((tag) => (
+                            <button
+                                key={tag}
+                                className={`filter-tag ${selectedTag === tag ? 'active' : ''}`}
+                                onClick={() => setSelectedTag(tag)}
+                            >
+                                {tag}
+                            </button>
+                        ))}
+                    </div>
+                </div>
+                
+                {allOtherTags.length > 0 && (
+                    <>
+                        <div className="filter-divider">
+                            <span></span>
+                        </div>
+
+                        <div className="filter-section">
+                            <span className="filter-label">Categories</span>
+                            <div className="filter-tags">
+                                {allOtherTags.map((tag) => (
+                                    <button
+                                        key={tag}
+                                        className={`filter-tag ${selectedTag === tag ? 'active' : ''}`}
+                                        onClick={() => setSelectedTag(tag)}
+                                    >
+                                        {tag}
+                                    </button>
+                                ))}
+                            </div>
+                        </div>
+                    </>
+                )}
+            </div>
+            
             <div className="project__content">
-                {projects.map((project) => (
+                {filteredProjects.map((project) => (
                     <div 
                         className="project-card"
                         key={project.name}

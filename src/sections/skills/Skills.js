@@ -1,9 +1,6 @@
 import React, { useRef } from 'react';
 import './Skills.css';
 
-// Import skill card icons
-
-
 const Skills = () => {
     const skillsGridRef = useRef(null);
 
@@ -40,16 +37,15 @@ const Skills = () => {
         },
     ];
 
-    /*TODO: Scrolling after last card breaks it 🫡*/
-    const scroll = (direction) => {
-        if (skillsGridRef.current) {
-            const scrollAmount = direction === 'left' ? -200 : 200;
-            skillsGridRef.current.scrollBy({
-                left: scrollAmount,
-                behavior: 'smooth'
-            });
-        }
-    };
+    // const scroll = (direction) => {
+    //     if (skillsGridRef.current) {
+    //         const scrollAmount = direction === 'left' ? -200 : 200;
+    //         skillsGridRef.current.scrollBy({
+    //             left: scrollAmount,
+    //             behavior: 'smooth'
+    //         });
+    //     }
+    // };
 
     return (
         <section id="skills" className="section section-tracker">
@@ -66,8 +62,8 @@ const Skills = () => {
                     </div>
                 ))}
             </div>
-
-            <div className="scroll-controls">
+            {/* Arrows are causing bugs on iPhone, removed arrows for now when touch scrolling is more reliable and works smoothly*/}
+            {/* <div className="scroll-controls">
                 <button 
                     className="scroll-arrow left" 
                     onClick={() => scroll('left')}
@@ -82,7 +78,7 @@ const Skills = () => {
                 >
                     →
                 </button>
-            </div>
+            </div> */}
         </section>
     );
 };
