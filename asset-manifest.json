@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.5206cfe4.css",
-    "main.js": "/static/js/main.39231814.js",
-    "static/js/453.81a0e1db.chunk.js": "/static/js/453.81a0e1db.chunk.js",
+    "main.css": "/static/css/main.7296f0e5.css",
+    "main.js": "/static/js/main.44d0bdd9.js",
+    "static/js/453.28e11700.chunk.js": "/static/js/453.28e11700.chunk.js",
     "static/media/illume-logo.png": "/static/media/illume-logo.6ed295d9a7735fa6d2c1.png",
     "static/media/fb-lvl1.png": "/static/media/fb-lvl1.560d2a11251ffdccfbb4.png",
     "static/media/fb-tutorial.png": "/static/media/fb-tutorial.c26f479aaa562e06ccff.png",
@@ -69,15 +69,16 @@
     "static/media/globe.svg": "/static/media/globe.fd53e70a2b56e9258e77.svg",
     "static/media/moon-space.svg": "/static/media/moon-space.31fd27f5034a1380e965.svg",
     "static/media/bot.svg": "/static/media/bot.67a2f749e774f1324aae.svg",
-    "static/media/linkedin-about.svg": "/static/media/linkedin-about.e6a69c0c8c0cf3a3c9724df08b87e373.svg",
+    "static/media/linkedin-button.svg": "/static/media/linkedin-button.e6a69c0c8c0cf3a3c9724df08b87e373.svg",
     "static/media/linkedin.svg": "/static/media/linkedin.566bbcbeea50b3c2739a65f8aab3689e.svg",
     "static/media/server.svg": "/static/media/server.53c7411ee19f545352ff.svg",
-    "main.5206cfe4.css.map": "/static/css/main.5206cfe4.css.map",
-    "main.39231814.js.map": "/static/js/main.39231814.js.map",
-    "453.81a0e1db.chunk.js.map": "/static/js/453.81a0e1db.chunk.js.map"
+    "static/media/cross.svg": "/static/media/cross.dd25ac74e5674d6dcf75.svg",
+    "main.7296f0e5.css.map": "/static/css/main.7296f0e5.css.map",
+    "main.44d0bdd9.js.map": "/static/js/main.44d0bdd9.js.map",
+    "453.28e11700.chunk.js.map": "/static/js/453.28e11700.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.5206cfe4.css",
-    "static/js/main.39231814.js"
+    "static/css/main.7296f0e5.css",
+    "static/js/main.44d0bdd9.js"
   ]
 }
