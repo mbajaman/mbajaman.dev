@@ -6,6 +6,7 @@ import itchIcon from '@assets/social-icons/itchio.svg';
 import githubIcon from '@assets/social-icons/github.svg';
 import youtubeIcon from '@assets/social-icons/youtube.svg';
 import webIcon from '@assets/social-icons/web.svg';
+import pdfIcon from '@assets/social-icons/pdf.svg';
 
 const ProjectModal = ({ project, isOpen, onClose }) => {
     const [currentImageIndex, setCurrentImageIndex] = useState(0);
@@ -55,6 +56,16 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
     const prevImage = () => {
         setCurrentImageIndex((prev) => (prev - 1 + images.length) % images.length);
     };
+
+    // Require PDF using path in projects.json
+    const getPdfUrl = (pdfPath) => {
+        try {
+            return require(`../../${pdfPath}`);
+        } catch (err) {
+            console.error('Error loading PDF:', err);
+            return null;
+        }
+    }
 
     if (!isOpen) return null;
 
@@ -177,6 +188,17 @@ const ProjectModal = ({ project, isOpen, onClose }) => {
                             <img className="modal-button-icon" src={webIcon} alt="YouTube" />
                             Website
                         </a>
+                        )}
+                        {project.pdfLink && (
+                            <a 
+                                href={getPdfUrl(project.pdfLink)} 
+                                className="modal-button secondary-button"
+                                target="_blank"
+                                rel="noopener noreferrer"
+                            >
+                                <img className="modal-button-icon" src={pdfIcon} alt="PDF" />
+                                PDF
+                            </a>
                         )}
                     </div>
                 </div>
