@@ -4,9 +4,9 @@
             "name": "HyperGOAP",
             "description": "A simple open-world game created in UE5 showcasing procedural terrain generation and GOAP AI.",
             "details": [
-                "Procedural terrain generation using Markov Chain Models.",
-                "Objects and foliage placement to build a realistic open-world.",
-                "GOAP AI architecture for NPCs."
+                "Developed procedural terrain generation using Markov Chain Models resulting in a dynamic open-world.",
+                "Implemented realistic tree objects and foliage placement techniques enhacning visual quality of the open-world.",
+                "Designed and integreated GOAP AI architecture for NPCs, allowing for a robust system for decision making."
             ],
             "images": [
                 "assets/project-media/hypergoap/hgoap-ai.png",
@@ -21,9 +21,10 @@
             "name": "SAD",
             "description": "A game engine created using C++ and ECS architecture.",
             "details": [
+                "Developed the core game engine using C++ and ECS architecture, enabling efficient management of game objects and components.",
+                "Implemented advanced features such as lighting, scripting, and ray-casting, which significantly enhanced the gameplay experience.",
                 "C++ game engine showcased with a shooter-survival game.",
                 "ECS architecture for game objects and components.",
-                "Include lighting, scripting and ray-casting.",
                 "Allows moving player-camera",
                 "Supportsrendering of 3D models and materials.",
                 "Cel-shading for rendering.",
@@ -163,10 +164,66 @@
             ],
             "githubLink": "https://github.com/jake-pauls/Hamstars/tree/develop",
             "itchLink": "https://jake-pauls.itch.io/hamstars?secret=VC7My4gAvWGomMn0pWjmA0heJQ",
-            "tags": ["C#", "Unity", "Game Jam"],
-            "_comment": "TODO: Add the AI projects with the research papers",
-            "_comment2" : "TODO: Maybe a couple more IT projects? (DM System Migration, Adobe Licensing Project)",
-            "_comment3" : "TODO: Add GIS Project"
+            "tags": ["C#", "Unity", "Game Jam"]
+        },
+        {
+            "name": "NIDS",
+            "description": "A Network Intrusion Detection System created using Python and machine learning.",
+            "details": [
+                "Researched and added code for Sequential Feature Selection.",
+                "Added K-Neighbors Classifier as one of the classification models.",
+                "Worked on solving the facotrization issue on trained models.",
+                "Labelling task for malicious packets achieved f1-score of 99% accuracy while attack category classification achieved 55% accuracy."
+            ],
+            "images": [
+                "assets/project-media/nids/nids.png",
+                "assets/project-media/nids/nids-1.png",
+                "assets/project-media/nids/nids-2.png",
+                "assets/project-media/nids/nids-3.png",
+                "assets/project-media/nids/nids-4.png"
+            ],
+            "pdfLink": "data/NIDS.pdf",
+            "tags": ["Python", "Machine Learning"]
+        },
+        {
+            "name": "Sentiment Analysis",
+            "description": "A sentiment analysis tool created using Python and trained on the YELP dataset.",
+            "details": [
+                "Implemented a Naive Bayes model and reviewed its relevant literature.",
+                "Tuned and tested RoBERTa model.",
+                "Added pre-processing steps to the dataset to improve model performance."
+            ],
+            "images": [
+                "assets/project-media/sentiment/sentiment.jpg",
+                "assets/project-media/sentiment/sentiment-1.png"
+            ],
+            "pdfLink": "data/Sentiment Analysis.pdf",
+            "tags": ["Python", "Machine Learning"]
+        },
+        {
+            "name": "Adobe Cloud Licensing",
+            "description": "Acquisition and deployment of Adobe Cloud Licensing for Harper Grey LLP.",
+            "details": [
+                "Setup scripts and install packages to automate deployment for Adobe to end-users.",
+                "Handled license acquisition and allocation for 200+ users for a steady and controlled deployment process."
+            ],
+            "images": [
+                "assets/project-media/adobe/adobe.png"
+            ],
+            "tags": ["Powershell", "Active Directory", "PDQ"]
+        },
+        {
+            "name": "DMS Migration",
+            "description": "New document management system (DMS) end-user deployment for Harper Grey LLP.",
+            "details": [
+                "Creted Powershell scripts and PDQ packages to configure new DMS client for end-users to reduce manual work ensure minimum downtime.",
+                "Deployed to over 200 computers and laptops at the firm.",
+                "Trained and mentored end-users on how to use the new DMS system."
+            ],
+            "images": [
+                "assets/project-media/dms/dms.png"
+            ],
+            "tags": ["Powershell", "Active Directory", "PDQ"]
         }
     ]
 }
