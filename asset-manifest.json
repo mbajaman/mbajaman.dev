@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.7296f0e5.css",
-    "main.js": "/static/js/main.d2a70f14.js",
+    "main.css": "/static/css/main.f79f045f.css",
+    "main.js": "/static/js/main.eeb11b9f.js",
     "static/js/453.28e11700.chunk.js": "/static/js/453.28e11700.chunk.js",
     "static/media/illume-logo.png": "/static/media/illume-logo.6ed295d9a7735fa6d2c1.png",
     "static/media/fb-lvl1.png": "/static/media/fb-lvl1.560d2a11251ffdccfbb4.png",
@@ -22,10 +22,10 @@
     "static/media/NIDS.pdf": "/static/media/NIDS.7f7ecaf9b42a5b084810.pdf",
     "static/media/fb-intro.png": "/static/media/fb-intro.5a4879486c676e40bc7f.png",
     "static/media/illume-ch2.png": "/static/media/illume-ch2.216f07ef1c87a893ddd9.png",
-    "static/media/profile.jpg": "/static/media/profile.2af98e63c8954b53e447.jpg",
     "static/media/illume-cave.png": "/static/media/illume-cave.a9ef892523e812d61945.png",
     "static/media/hgoap-ai.png": "/static/media/hgoap-ai.c04664e314d693070ae4.png",
     "static/media/fb-menu.png": "/static/media/fb-menu.f00e1a09b5e9f915b33b.png",
+    "static/media/profile.jpg": "/static/media/profile.13b34d0034b173ffce78.jpg",
     "static/media/cownado.png": "/static/media/cownado.5714da8fb3353e295c0a.png",
     "static/media/hgoap-markov-pcg-1.png": "/static/media/hgoap-markov-pcg-1.51fda7a239785a08f359.png",
     "static/media/Sentiment Analysis.pdf": "/static/media/Sentiment Analysis.7e3404126cc46f2954cd.pdf",
@@ -87,12 +87,12 @@
     "static/media/linkedin.svg": "/static/media/linkedin.566bbcbeea50b3c2739a65f8aab3689e.svg",
     "static/media/server.svg": "/static/media/server.53c7411ee19f545352ff.svg",
     "static/media/cross.svg": "/static/media/cross.dd25ac74e5674d6dcf75.svg",
-    "main.7296f0e5.css.map": "/static/css/main.7296f0e5.css.map",
-    "main.d2a70f14.js.map": "/static/js/main.d2a70f14.js.map",
+    "main.f79f045f.css.map": "/static/css/main.f79f045f.css.map",
+    "main.eeb11b9f.js.map": "/static/js/main.eeb11b9f.js.map",
     "453.28e11700.chunk.js.map": "/static/js/453.28e11700.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7296f0e5.css",
-    "static/js/main.d2a70f14.js"
+    "static/css/main.f79f045f.css",
+    "static/js/main.eeb11b9f.js"
   ]
 }
