@@ -26,7 +26,7 @@
     justify-content: center;
     align-items: center;
     margin: 3rem 0;
-    aspect-ratio: 3/4;
+    aspect-ratio: 242/415;
 }
 
 .about-image img {
@@ -52,11 +52,12 @@
     left: 0;
     right: 0;
     bottom: 0;
-    background: linear-gradient(
+    /* In case you want to add a gradient to the image */
+    /* background: linear-gradient(
         to bottom,
         transparent,
         rgba(0, 0, 0, 0.1)
-    );
+    ); */
 }
 
 .about-text {
