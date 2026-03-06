@@ -20,14 +20,14 @@ const Hero = () => {
         2000,
         'Game Programmer',
         2000,
-        'IT Solutions Analyst',
+        'Level Designer',
         2000,
         'Unity Developer',
         2000,
         'UE5 Developer',
-        2000,
-        'AI Programmer',
         2000
+        // 'AI Programmer',
+        // 2000
     ];
 
     const socialLinks = [

@@ -15,16 +15,16 @@ const Skills = () => {
             title: "Game Development",
             description: "Developing engaging gaming experiences"
         },
-        {
-            svgName: "server",
-            title: "IT Solutions",
-            description: "Building and securing IT applications"
-        },
-        {
-            svgName: "bot",
-            title: "AI Programming",
-            description: "Training and deploying AI models"
-        },
+        // {
+        //     svgName: "server",
+        //     title: "IT Solutions",
+        //     description: "Building and securing IT applications"
+        // },
+        // {
+        //     svgName: "bot",
+        //     title: "AI Programming",
+        //     description: "Training and deploying AI models"
+        // },
         {
             svgName: "tetris",
             title: "Game Design",
