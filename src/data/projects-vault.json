@@ -1,22 +1,6 @@
 {
     "projects": [
         {
-            "name": "Bian Beat",
-            "description": "Bian Beat is a rhythm game that's played with the expressions you make! Smile, frown, scowl, and pogface to the beat. Webcam required.",
-            "details": [
-                "Developed the beatmap system to sync masks to the music.",
-                "Implemented game loop logic to handle the game state and transitions.",
-                "Worked on adding UI assets to the game to improve the user experience."
-            ],
-            "images": [
-                "assets/project-media/bianbeat/bianbeat-1.png",
-                "assets/project-media/bianbeat/bianbeat-2.png",
-                "assets/project-media/bianbeat/bianbeat-3.png"
-            ],
-            "githubLink": "https://globalgamejam.org/games/2026/mask-game-5",
-            "tags": ["C#", "Unity", "Rhythm", "Game Jam", "Webcam"]
-        },
-        {
             "name": "HyperGOAP",
             "description": "A simple open-world game created in UE5 showcasing procedural terrain generation and GOAP AI.",
             "details": [
@@ -104,6 +88,19 @@
             "tags": ["C#", "Unity", "Level Design", "Action"]
         },
         {
+            "name": "Trial Date Calculator",
+            "description": "A tool to automate calendar invites/reminders for important deadlines leading up to the trial date.",
+            "details": [
+                "In-house tool built using Sharepoint Online and Power Automate for a law firm.",
+                "Hosted on a local Flask server.",
+                "Automated hour long process of setting up calendar invites and Outlook tasks down to 5 minutes."
+            ],
+            "images": [
+                "assets/project-media/trialdatecalc/trialdatecalc.jpg"
+            ],
+            "tags": ["Python", "Flask", "SPO", "Power Automate"]
+        },
+        {
             "name": "Octopations",
             "description": "A Jackbox-style party game creted for the Global Game Jam 2024.",
             "details": [
@@ -136,6 +133,97 @@
             "itchLink": "https://jake-pauls.itch.io/cownado",
             "githubLink": "https://github.com/20TB-ZipBomb/BGJ2024",
             "tags": ["GDScript", "Godot", "Party", "Game Jam"]
+        },
+        {
+            "name": "Windows Image Deployment",
+            "description": "Streamlined and optimized the deployment of Windows images as part of the Harper Grey LLP equipment refresh process.",
+            "details": [
+                "Reduced imaging time from 1 hour to 10 minutes.",
+                "Cleaned up and optimized package/software deployment process using PDQ.",
+                "Managed the deployment of over 200 computers and laptops at the firm."
+            ],
+            "images": [
+                "assets/project-media/wid/wid.jpg"
+            ],
+            "tags": ["Powershell", "Bash", "PDQ", "MDT"]
+        },
+        {
+            "name": "Hamstars",
+            "description": "Compete with up to 4 friends as a hamster in this fast-paced peanut hoarding brawl. Created during the Town One Game Jam, May 2022.",
+            "details": [
+                "Winner of the Town One Artisan Award 🎨",
+                "Created using Unity",
+                "Hop in a hamster ball and squash the competition.",
+                "Collect and hoard peanuts before time runs out."
+            ],
+            "images": [
+                "assets/project-media/hamstars/hamstars.png",
+                "assets/project-media/hamstars/hamstars-1.png",
+                "assets/project-media/hamstars/hamstars-2.png",
+                "assets/project-media/hamstars/hamstars-3.png"
+            ],
+            "githubLink": "https://github.com/jake-pauls/Hamstars/tree/develop",
+            "itchLink": "https://jake-pauls.itch.io/hamstars?secret=VC7My4gAvWGomMn0pWjmA0heJQ",
+            "tags": ["C#", "Unity", "Game Jam"]
+        },
+        {
+            "name": "NIDS",
+            "description": "A Network Intrusion Detection System created using Python and machine learning.",
+            "details": [
+                "Researched and added code for Sequential Feature Selection.",
+                "Added K-Neighbors Classifier as one of the classification models.",
+                "Worked on solving the facotrization issue on trained models.",
+                "Labelling task for malicious packets achieved f1-score of 99% accuracy while attack category classification achieved 55% accuracy."
+            ],
+            "images": [
+                "assets/project-media/nids/nids.png",
+                "assets/project-media/nids/nids-1.png",
+                "assets/project-media/nids/nids-2.png",
+                "assets/project-media/nids/nids-3.png",
+                "assets/project-media/nids/nids-4.png"
+            ],
+            "pdfLink": "data/NIDS.pdf",
+            "tags": ["Python", "Machine Learning"]
+        },
+        {
+            "name": "Sentiment Analysis",
+            "description": "A sentiment analysis tool created using Python and trained on the YELP dataset.",
+            "details": [
+                "Implemented a Naive Bayes model and reviewed its relevant literature.",
+                "Tuned and tested RoBERTa model.",
+                "Added pre-processing steps to the dataset to improve model performance."
+            ],
+            "images": [
+                "assets/project-media/sentiment/sentiment.jpg",
+                "assets/project-media/sentiment/sentiment-1.png"
+            ],
+            "pdfLink": "data/Sentiment Analysis.pdf",
+            "tags": ["Python", "Machine Learning"]
+        },
+        {
+            "name": "Adobe Cloud Licensing",
+            "description": "Acquisition and deployment of Adobe Cloud Licensing for Harper Grey LLP.",
+            "details": [
+                "Setup scripts and install packages to automate deployment for Adobe to end-users.",
+                "Handled license acquisition and allocation for 200+ users for a steady and controlled deployment process."
+            ],
+            "images": [
+                "assets/project-media/adobe/adobe.png"
+            ],
+            "tags": ["Powershell", "Active Directory", "PDQ"]
+        },
+        {
+            "name": "DMS Migration",
+            "description": "New document management system (DMS) end-user deployment for Harper Grey LLP.",
+            "details": [
+                "Creted Powershell scripts and PDQ packages to configure new DMS client for end-users to reduce manual work ensure minimum downtime.",
+                "Deployed to over 200 computers and laptops at the firm.",
+                "Trained and mentored end-users on how to use the new DMS system."
+            ],
+            "images": [
+                "assets/project-media/dms/dms.png"
+            ],
+            "tags": ["Powershell", "Active Directory", "PDQ"]
         }
     ]
 }
