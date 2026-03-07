@@ -16,16 +16,16 @@ import itchIcon from '@assets/social-icons/itchio.svg'
 
 const Hero = () => {
     const roles = [
-        'Software Engineer',
-        2000,
         'Game Programmer',
         2000,
-        'Level Designer',
+        'Software Engineer',
         2000,
         'Unity Developer',
         2000,
         'UE5 Developer',
-        2000
+        2000,
+        'Level Designer',
+        2000,
         // 'AI Programmer',
         // 2000
     ];

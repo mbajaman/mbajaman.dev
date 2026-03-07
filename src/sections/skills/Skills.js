@@ -6,15 +6,16 @@ const Skills = () => {
 
     const skillCards = [
         {
-            svgName: "code",
-            title: "Software Engineering",
-            description: "Building scalable and efficient software solutions"
-        },
-        {
             svgName: "gamepad",
             title: "Game Development",
             description: "Developing engaging gaming experiences"
         },
+        {
+            svgName: "code",
+            title: "Software Engineering",
+            description: "Building scalable and efficient software solutions"
+        },
+        
         // {
         //     svgName: "server",
         //     title: "IT Solutions",
