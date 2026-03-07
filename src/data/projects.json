@@ -14,7 +14,9 @@
                 "assets/project-media/bianbeat/bianbeat-2.png",
                 "assets/project-media/bianbeat/bianbeat-3.png"
             ],
-            "githubLink": "https://globalgamejam.org/games/2026/mask-game-5",
+            "itchLink": "https://playeryu.itch.io/bian-beat",
+            "webLink": "https://globalgamejam.org/games/2026/mask-game-5",
+            "githubLink": "https://github.com/jake-pauls/BianBeat",
             "tags": ["C#", "Unity", "Rhythm", "Game Jam", "Webcam"]
         },
         {
