@@ -1,8 +1,10 @@
 {
   "files": {
     "main.css": "/static/css/main.f79f045f.css",
-    "main.js": "/static/js/main.19238620.js",
+    "main.js": "/static/js/main.5cfffc97.js",
     "static/js/453.28e11700.chunk.js": "/static/js/453.28e11700.chunk.js",
+    "static/media/bianbeat-1.png": "/static/media/bianbeat-1.cceff5804f570a74ddb3.png",
+    "static/media/bianbeat-2.png": "/static/media/bianbeat-2.7dc897bcc2cfa63500a3.png",
     "static/media/illume-logo.png": "/static/media/illume-logo.6ed295d9a7735fa6d2c1.png",
     "static/media/fb-lvl1.png": "/static/media/fb-lvl1.560d2a11251ffdccfbb4.png",
     "static/media/fb-tutorial.png": "/static/media/fb-tutorial.c26f479aaa562e06ccff.png",
@@ -14,7 +16,9 @@
     "static/media/hamstars-1.png": "/static/media/hamstars-1.6915adf1520706f2ac7c.png",
     "static/media/hamstars.png": "/static/media/hamstars.0fce3b892a35c3a28532.png",
     "static/media/fb-lvl2.png": "/static/media/fb-lvl2.fb77171b27b27751c371.png",
+    "static/media/bianbeat-4.png": "/static/media/bianbeat-4.021f8b08a5d8bbd1fbfa.png",
     "static/media/hamstars-2.png": "/static/media/hamstars-2.1220b018c3e2ad39f6a0.png",
+    "static/media/bianbeat-3.png": "/static/media/bianbeat-3.b603f55eadfd2153f5e1.png",
     "static/media/Final Project Report.docx": "/static/media/Final Project Report.703934c27c441a183566.docx",
     "static/media/cownado-3.png": "/static/media/cownado-3.4b623dc0c84a50655414.png",
     "static/media/hgoap-markov-pcg-2.png": "/static/media/hgoap-markov-pcg-2.7a6a94647f68baeb7943.png",
@@ -38,6 +42,7 @@
     "static/media/nids-2.png": "/static/media/nids-2.4633aaf12162d0869052.png",
     "static/media/wid.jpg": "/static/media/wid.1b0bb2693d0c6c78c11c.jpg",
     "static/media/sentiment.jpg": "/static/media/sentiment.3621fed7c6e391a49db1.jpg",
+    "static/media/bianbeat-logo.png": "/static/media/bianbeat-logo.49ca8818e422b2b030c4.png",
     "static/media/nids.png": "/static/media/nids.fb4253efa9305e724164.png",
     "static/media/work.png": "/static/media/work.02a051a8a6e483c4111a.png",
     "static/media/cownado-2.png": "/static/media/cownado-2.2fcd8f3595ef481a33af.png",
@@ -88,11 +93,11 @@
     "static/media/server.svg": "/static/media/server.53c7411ee19f545352ff.svg",
     "static/media/cross.svg": "/static/media/cross.dd25ac74e5674d6dcf75.svg",
     "main.f79f045f.css.map": "/static/css/main.f79f045f.css.map",
-    "main.19238620.js.map": "/static/js/main.19238620.js.map",
+    "main.5cfffc97.js.map": "/static/js/main.5cfffc97.js.map",
     "453.28e11700.chunk.js.map": "/static/js/453.28e11700.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.f79f045f.css",
-    "static/js/main.19238620.js"
+    "static/js/main.5cfffc97.js"
   ]
 }
