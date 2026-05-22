@@ -1,58 +1,22 @@
 {
     "projects": [
         {
-            "name": "Bian Beat",
-            "description": "Bian Beat is a rhythm game that's played with the expressions you make! Smile, frown, scowl, and pogface to the beat. Webcam required.",
-            "details": [
-                "Developed the beatmap system to sync masks to the music.",
-                "Implemented game loop logic to handle the game state and transitions.",
-                "Worked on adding UI assets to the game to improve the user experience."
-            ],
-            "images": [
-                "assets/project-media/bianbeat/bianbeat-logo.png",
-                "assets/project-media/bianbeat/bianbeat-1.png",
-                "assets/project-media/bianbeat/bianbeat-2.png",
-                "assets/project-media/bianbeat/bianbeat-3.png"
-            ],
-            "itchLink": "https://playeryu.itch.io/bian-beat",
-            "webLink": "https://globalgamejam.org/games/2026/mask-game-5",
-            "githubLink": "https://github.com/jake-pauls/BianBeat",
-            "tags": ["C#", "Unity", "Rhythm", "Game Jam", "Webcam"]
-        },
-        {
-            "name": "HyperGOAP",
-            "description": "A simple open-world game created in UE5 showcasing procedural terrain generation and GOAP AI.",
-            "details": [
-                "Developed procedural terrain generation using Markov Chain Models resulting in a dynamic open-world.",
-                "Implemented realistic tree objects and foliage placement techniques enhacning visual quality of the open-world.",
-                "Designed and integreated GOAP AI architecture for NPCs, allowing for a robust system for decision making."
-            ],
-            "images": [
-                "assets/project-media/hypergoap/hgoap-ai.png",
-                "assets/project-media/hypergoap/hgoap-ai2.png",
-                "assets/project-media/hypergoap/hgoap-markov-pcg-1.png",
-                "assets/project-media/hypergoap/hgoap-markov-pcg-2.png"
-            ],
-            "githubLink": "https://github.com/mbajaman/HyperGoap",
-            "tags": ["C++", "UE5", "PCG", "AI"]
-        },
-        {
-            "name": "SAD",
+            "name": "SAD Game Engine",
             "description": "A game engine created using C++ and ECS architecture.",
             "details": [
-                "Developed the core game engine using C++ and ECS architecture, enabling efficient management of game objects and components.",
+                "Led a team of 12 to develop a game engine using C++ and ECS architecture.",
                 "Implemented advanced features such as lighting, scripting, and ray-casting, which significantly enhanced the gameplay experience.",
                 "C++ game engine showcased with a shooter-survival game.",
                 "ECS architecture for game objects and components.",
                 "Allows moving player-camera",
-                "Supportsrendering of 3D models and materials.",
+                "Supports rendering of 3D models and materials.",
                 "Cel-shading for rendering.",
                 "CI/CD pipeline for automated testing."
             ],
             "_comment" : "TODO: Replace images 2-4, they have blue light filter in them 😭",
             "images": [
-                "assets/project-media/sad/sad.png",
                 "assets/project-media/sad/sad-1.png",
+                "assets/project-media/sad/sad.png",
                 "assets/project-media/sad/sad-2.png",
                 "assets/project-media/sad/sad-3.png",
                 "assets/project-media/sad/sad-4.png"
@@ -85,6 +49,23 @@
             "tags": ["C#", "Unity", "Level Design", "Storytelling"]
         },
         {
+            "name": "HyperGOAP",
+            "description": "A simple open-world game created in UE5 showcasing procedural terrain generation and GOAP AI.",
+            "details": [
+                "Developed procedural terrain generation using Markov Chain Models resulting in a dynamic open-world.",
+                "Implemented realistic tree objects and foliage placement techniques enhacning visual quality of the open-world.",
+                "Designed and integreated GOAP AI architecture for NPCs, allowing for a robust system for decision making."
+            ],
+            "images": [
+                "assets/project-media/hypergoap/hgoap-ai.png",
+                "assets/project-media/hypergoap/hgoap-ai2.png",
+                "assets/project-media/hypergoap/hgoap-markov-pcg-1.png",
+                "assets/project-media/hypergoap/hgoap-markov-pcg-2.png"
+            ],
+            "githubLink": "https://github.com/mbajaman/HyperGoap",
+            "tags": ["C++", "UE5", "PCG", "AI"]
+        },
+        {
             "name": "Focus Breakout",
             "description": "A 3D adventure game where you play as a target orb trying to survive and escape the aim trainer simulation.",
             "details": [
@@ -105,6 +86,25 @@
             "githubLink": "https://github.com/mbajaman/FocusBreakout",
             "youtubeLink": "https://www.youtube.com/watch?v=ah-MSnVxhL4",
             "tags": ["C#", "Unity", "Level Design", "Action"]
+        },
+        {
+            "name": "Bian Beat",
+            "description": "Bian Beat is a rhythm game that's played with the expressions you make! Smile, frown, scowl, and pogface to the beat. Webcam required.",
+            "details": [
+                "Developed the beatmap system to sync masks to the music.",
+                "Implemented game loop logic to handle the game state and transitions.",
+                "Worked on adding UI assets to the game to improve the user experience."
+            ],
+            "images": [
+                "assets/project-media/bianbeat/bianbeat-logo.png",
+                "assets/project-media/bianbeat/bianbeat-1.png",
+                "assets/project-media/bianbeat/bianbeat-2.png",
+                "assets/project-media/bianbeat/bianbeat-3.png"
+            ],
+            "itchLink": "https://playeryu.itch.io/bian-beat",
+            "webLink": "https://globalgamejam.org/games/2026/mask-game-5",
+            "githubLink": "https://github.com/jake-pauls/BianBeat",
+            "tags": ["C#", "Unity", "Rhythm", "Game Jam", "Webcam"]
         },
         {
             "name": "Octopations",
