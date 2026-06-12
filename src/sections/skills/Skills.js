@@ -5,37 +5,38 @@ const Skills = () => {
     const skillsGridRef = useRef(null);
 
     const skillCards = [
-        {
-            svgName: "gamepad",
-            title: "Game Development",
-            description: "Developing engaging gaming experiences"
-        },
+
         {
             svgName: "code",
             title: "Software Engineering",
             description: "Building scalable and efficient software solutions"
-        },
-        
-        // {
-        //     svgName: "server",
-        //     title: "IT Solutions",
-        //     description: "Building and securing IT applications"
-        // },
-        // {
-        //     svgName: "bot",
-        //     title: "AI Programming",
-        //     description: "Training and deploying AI models"
-        // },
-        {
-            svgName: "tetris",
-            title: "Game Design",
-            description: "Prototyping and designing engaging games"
         },
         {
             svgName: "globe",
             title: "Web Development",
             description: "Crafting modern and responsive web applications"
         },
+        {
+            svgName: "server",
+            title: "IT Solutions",
+            description: "Building and securing IT applications"
+        },
+        {
+            svgName: "bot",
+            title: "AI Programming",
+            description: "Training and deploying AI models"
+        },
+        {
+            svgName: "gamepad",
+            title: "Game Development",
+            description: "Developing engaging gaming experiences"
+        },
+        // {
+        //     svgName: "tetris",
+        //     title: "Game Design",
+        //     description: "Prototyping and designing engaging games"
+        // },
+
     ];
 
     // const scroll = (direction) => {

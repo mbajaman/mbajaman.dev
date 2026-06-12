@@ -64,7 +64,7 @@ const About = () => {
                             </div>
                             <div className="info-item">
                                 <span className="label">Currently Learning</span>
-                                <span className="value">UE5 Tools Programming</span>
+                                <span className="value">Lua Scripting</span>
                             </div>
                         </div>
 
