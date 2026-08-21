@@ -1,57 +1,57 @@
 {
-    "name": "mbajaman.dev",
-    "version": "1.1.0",
-    "homepage": "https://mbajaman.dev",
-    "private": true,
-    "dependencies": {
-        "@testing-library/jest-dom": "^6.4.5",
-        "@testing-library/react": "^13.4.0",
-        "@testing-library/user-event": "^13.5.0",
-        "react": "^18.3.0",
-        "react-dom": "^18.2.0",
-        "react-router-dom": "^6.23.1",
-        "react-scripts": "5.0.1",
-        "react-type-animation": "^3.2.0",
-        "web-vitals": "^2.1.4"
-    },
-    "scripts": {
-        "predeploy:prod": "node scripts/set-homepage.js prod && node scripts/set-cname.js && npm run build",
-        "predeploy:staging": "node scripts/set-homepage.js staging && node scripts/set-cname.js && npm run build",
-        "deploy:prod": "npm run predeploy:prod && gh-pages -d build -b gh-pages",
-        "deploy:staging": "npm run predeploy:staging && gh-pages -d build -r https://github.com/mbajaman/staging.mbajaman.dev.git -b gh-pages",
-        "start": "react-app-rewired start",
-        "build": "react-app-rewired build",
-        "test": "react-app-rewired test",
-        "eject": "react-scripts eject",
-        "format": "prettier --write .",
-        "format:check": "prettier --check ."
-    },
-    "eslintConfig": {
-        "extends": [
-            "react-app",
-            "react-app/jest",
-            "prettier"
-        ]
-    },
-    "browserslist": {
-        "production": [
-            ">0.2%",
-            "not dead",
-            "not op_mini all"
-        ],
-        "development": [
-            "last 1 chrome version",
-            "last 1 firefox version",
-            "last 1 safari version"
-        ]
-    },
-    "devDependencies": {
-        "@babel/plugin-proposal-private-property-in-object": "^7.21",
-        "cross-env": "^7.0.3",
-        "customize-cra": "^1.0.0",
-        "eslint-config-prettier": "^10.1.8",
-        "gh-pages": "^5.0.0",
-        "prettier": "^3.9.6",
-        "react-app-rewired": "^2.2.1"
-    }
+  "name": "mbajaman.dev",
+  "version": "1.1.0",
+  "homepage": "https://mbajaman.dev",
+  "private": true,
+  "dependencies": {
+    "@testing-library/jest-dom": "^6.4.5",
+    "@testing-library/react": "^13.4.0",
+    "@testing-library/user-event": "^13.5.0",
+    "react": "^18.3.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.23.1",
+    "react-scripts": "5.0.1",
+    "react-type-animation": "^3.2.0",
+    "web-vitals": "^2.1.4"
+  },
+  "scripts": {
+    "predeploy:prod": "node scripts/set-homepage.js prod && node scripts/set-cname.js && npm run build",
+    "predeploy:staging": "node scripts/set-homepage.js staging && node scripts/set-cname.js && npm run build",
+    "deploy:prod": "npm run predeploy:prod && gh-pages -d build -b gh-pages",
+    "deploy:staging": "npm run predeploy:staging && gh-pages -d build -r https://github.com/mbajaman/staging.mbajaman.dev.git -b gh-pages",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "test": "react-app-rewired test",
+    "eject": "react-scripts eject",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
+  },
+  "eslintConfig": {
+    "extends": [
+      "react-app",
+      "react-app/jest",
+      "prettier"
+    ]
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "devDependencies": {
+    "@babel/plugin-proposal-private-property-in-object": "^7.21",
+    "cross-env": "^7.0.3",
+    "customize-cra": "^1.0.0",
+    "eslint-config-prettier": "^10.1.8",
+    "gh-pages": "^5.0.0",
+    "prettier": "^3.9.6",
+    "react-app-rewired": "^2.2.1"
+  }
 }
