@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.f79f045f.css",
-    "main.js": "/static/js/main.0261ef84.js",
+    "main.css": "/static/css/main.ad18721c.css",
+    "main.js": "/static/js/main.bf88ff74.js",
     "static/js/453.28e11700.chunk.js": "/static/js/453.28e11700.chunk.js",
     "static/media/bianbeat-1.png": "/static/media/bianbeat-1.cceff5804f570a74ddb3.png",
     "static/media/bianbeat-2.png": "/static/media/bianbeat-2.7dc897bcc2cfa63500a3.png",
@@ -20,6 +20,7 @@
     "static/media/hamstars-2.png": "/static/media/hamstars-2.1220b018c3e2ad39f6a0.png",
     "static/media/bianbeat-3.png": "/static/media/bianbeat-3.b603f55eadfd2153f5e1.png",
     "static/media/Final Project Report.docx": "/static/media/Final Project Report.703934c27c441a183566.docx",
+    "static/media/maplestudy.png": "/static/media/maplestudy.e29a7b855bdd9341781d.png",
     "static/media/cownado-3.png": "/static/media/cownado-3.4b623dc0c84a50655414.png",
     "static/media/hgoap-markov-pcg-2.png": "/static/media/hgoap-markov-pcg-2.7a6a94647f68baeb7943.png",
     "static/media/illume-ch3.png": "/static/media/illume-ch3.38bc3743a4d24cfae6a7.png",
@@ -92,12 +93,12 @@
     "static/media/linkedin.svg": "/static/media/linkedin.566bbcbeea50b3c2739a65f8aab3689e.svg",
     "static/media/server.svg": "/static/media/server.53c7411ee19f545352ff.svg",
     "static/media/cross.svg": "/static/media/cross.dd25ac74e5674d6dcf75.svg",
-    "main.f79f045f.css.map": "/static/css/main.f79f045f.css.map",
-    "main.0261ef84.js.map": "/static/js/main.0261ef84.js.map",
+    "main.ad18721c.css.map": "/static/css/main.ad18721c.css.map",
+    "main.bf88ff74.js.map": "/static/js/main.bf88ff74.js.map",
     "453.28e11700.chunk.js.map": "/static/js/453.28e11700.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.f79f045f.css",
-    "static/js/main.0261ef84.js"
+    "static/css/main.ad18721c.css",
+    "static/js/main.bf88ff74.js"
   ]
 }
