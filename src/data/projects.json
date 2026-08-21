@@ -7,9 +7,7 @@
             "details": [
                 "Project details and links will be updated here after the game has been published!"
             ],
-            "images": [
-                "assets/project-media/maplestudy/maplestudy.png"
-            ],
+            "images": ["assets/project-media/maplestudy/maplestudy.png"],
             "tags": ["Lua", "MapleStory Worlds", "Cozy", "Productivity"],
             "wip": true,
             "roles": { "gamedev": 98, "swe": 40, "it": 0, "ai": 0, "web": 0 }
@@ -28,7 +26,7 @@
                 "Cel-shading for rendering.",
                 "CI/CD pipeline for automated testing."
             ],
-            "_comment" : "TODO: Replace images 2-4, they have blue light filter in them 😭",
+            "_comment": "TODO: Replace images 2-4, they have blue light filter in them 😭",
             "images": [
                 "assets/project-media/sad/sad-1.png",
                 "assets/project-media/sad/sad.png",
@@ -213,9 +211,7 @@
                 "Hosted on a local Flask server.",
                 "Automated hour long process of setting up calendar invites and Outlook tasks down to 5 minutes."
             ],
-            "images": [
-                "assets/project-media/trialdatecalc/trialdatecalc.jpg"
-            ],
+            "images": ["assets/project-media/trialdatecalc/trialdatecalc.jpg"],
             "tags": ["Python", "Flask", "SPO", "Power Automate"],
             "roles": { "it": 100, "swe": 80, "web": 75, "gamedev": 0, "ai": 0 }
         },
@@ -228,9 +224,7 @@
                 "Cleaned up and optimized package/software deployment process using PDQ.",
                 "Managed the deployment of over 200 computers and laptops at the firm."
             ],
-            "images": [
-                "assets/project-media/wid/wid.jpg"
-            ],
+            "images": ["assets/project-media/wid/wid.jpg"],
             "tags": ["Powershell", "Bash", "PDQ", "MDT"],
             "roles": { "it": 95, "swe": 0, "web": 0, "gamedev": 0, "ai": 0 }
         },
@@ -243,9 +237,7 @@
                 "Deployed to over 200 computers and laptops at the firm.",
                 "Trained and mentored end-users on how to use the new DMS system."
             ],
-            "images": [
-                "assets/project-media/dms/dms.png"
-            ],
+            "images": ["assets/project-media/dms/dms.png"],
             "tags": ["Powershell", "Active Directory", "PDQ"],
             "roles": { "it": 90, "swe": 0, "web": 0, "gamedev": 0, "ai": 0 }
         },
@@ -257,9 +249,7 @@
                 "Setup scripts and install packages to automate deployment for Adobe to end-users.",
                 "Handled license acquisition and allocation for 200+ users for a steady and controlled deployment process."
             ],
-            "images": [
-                "assets/project-media/adobe/adobe.png"
-            ],
+            "images": ["assets/project-media/adobe/adobe.png"],
             "tags": ["Powershell", "Active Directory", "PDQ"],
             "roles": { "it": 85, "swe": 0, "web": 0, "gamedev": 0, "ai": 0 }
         },

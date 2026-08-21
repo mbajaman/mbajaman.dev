@@ -28,7 +28,8 @@
 }
 
 /* Buttons */
-.primary-button, .secondary-button {
+.primary-button,
+.secondary-button {
     padding: 0.8rem 2rem;
     border-radius: 4px;
     font-weight: 500;
@@ -63,7 +64,7 @@
     transform: translateY(-2px);
 }
 
-@media (max-width:1440px) {
+@media (max-width: 1440px) {
     .section {
         padding: 2rem 10vw 0rem;
     }
@@ -81,7 +82,8 @@
     }
 
     /* Buttons */
-    .primary-button, .secondary-button {
+    .primary-button,
+    .secondary-button {
         min-width: 140px;
         padding: 0.7rem 1.5rem;
         font-size: 0.9rem;
@@ -89,7 +91,8 @@
 }
 
 @media (max-width: 480px) {
-    .primary-button, .secondary-button {
+    .primary-button,
+    .secondary-button {
         width: 100%;
         min-width: unset;
     }

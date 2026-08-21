@@ -1,9 +1,9 @@
-import React, { useRef } from 'react';
-import './Skills.css';
+import React, { useRef } from 'react'
+import './Skills.css'
 import { useProfile } from '@context/ProfileContext'
 
 const Skills = () => {
-    const skillsGridRef = useRef(null);
+    const skillsGridRef = useRef(null)
 
     const { skills: skillCards } = useProfile()
 
@@ -20,13 +20,11 @@ const Skills = () => {
     return (
         <section id="skills" className="section section-tracker">
             <h2 className="section-title">Skills</h2>
-            
+
             <div className="skills-grid" ref={skillsGridRef}>
                 {skillCards.map((card, index) => (
                     <div className="skill-card" key={index}>
-                            <div 
-                                className={`skill-icon ${card.svgName}`}
-                            > </div>
+                        <div className={`skill-icon ${card.svgName}`}> </div>
                         <h4>{card.title}</h4>
                         <p>{card.description}</p>
                     </div>
@@ -50,7 +48,7 @@ const Skills = () => {
                 </button>
             </div> */}
         </section>
-    );
-};
+    )
+}
 
-export default Skills; 
+export default Skills

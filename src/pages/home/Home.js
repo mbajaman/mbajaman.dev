@@ -13,7 +13,6 @@ import About from '@sections/about/About'
 
 import './Home.css'
 
-
 const Home = () => {
     return (
         <ProfileProvider>

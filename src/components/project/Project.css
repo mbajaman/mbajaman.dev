@@ -35,7 +35,7 @@
 }
 
 .project-card:hover {
-    border:0.1em solid var(--primary70)
+    border: 0.1em solid var(--primary70);
 }
 
 .project-card:hover .project-card__inner {
@@ -333,4 +333,3 @@
     opacity: 0;
     transition: opacity 0.2s ease;
 }
-

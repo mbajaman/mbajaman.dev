@@ -127,7 +127,10 @@
     opacity: 0;
     visibility: hidden;
     transform: translateY(-8px);
-    transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease;
+    transition:
+        opacity 0.25s ease,
+        transform 0.25s ease,
+        visibility 0.25s ease;
 }
 
 .navbar__profile-menu.active {
@@ -151,7 +154,9 @@
     text-decoration: none;
     color: var(--text);
     font-size: 0.95rem;
-    transition: background 0.2s ease, color 0.2s ease;
+    transition:
+        background 0.2s ease,
+        color 0.2s ease;
 }
 
 .navbar__profile-option:hover {

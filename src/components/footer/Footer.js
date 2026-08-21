@@ -9,11 +9,31 @@ import itchIcon from '../../assets/social-icons/itchio.svg'
 
 const Footer = () => {
     const socialLinks = [
-        { name: 'Email', url: 'mailto:mohammed_bajaman@hotmail.com', title: 'mohammed_bajaman@hotmail.com', icon: emailIcon },
-        { name: 'GitHub', url: 'https://github.com/mbajaman', title: 'https://github.com/mbajaman', icon: githubIcon },
-        { name: 'LinkedIn', url: 'https://www.linkedin.com/in/mbajaman/', title: 'https://www.linkedin.com/in/mbajaman/', icon: linkedinIcon },
-        { name: 'Itch', url: 'https://mbajaman.itch.io/', title: 'https://mbajaman.itch.io/', icon: itchIcon }
-    ];
+        {
+            name: 'Email',
+            url: 'mailto:mohammed_bajaman@hotmail.com',
+            title: 'mohammed_bajaman@hotmail.com',
+            icon: emailIcon,
+        },
+        {
+            name: 'GitHub',
+            url: 'https://github.com/mbajaman',
+            title: 'https://github.com/mbajaman',
+            icon: githubIcon,
+        },
+        {
+            name: 'LinkedIn',
+            url: 'https://www.linkedin.com/in/mbajaman/',
+            title: 'https://www.linkedin.com/in/mbajaman/',
+            icon: linkedinIcon,
+        },
+        {
+            name: 'Itch',
+            url: 'https://mbajaman.itch.io/',
+            title: 'https://mbajaman.itch.io/',
+            icon: itchIcon,
+        },
+    ]
 
     return (
         <footer className="footer">
@@ -24,7 +44,7 @@ const Footer = () => {
 
                 <div className="footer__social-links">
                     {socialLinks.map((link) => (
-                        <a 
+                        <a
                             key={link.name}
                             href={link.url}
                             target="_blank"
