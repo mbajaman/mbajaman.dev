@@ -35,7 +35,7 @@
 }
 
 .project-card:hover {
-    border:0.1em solid var(--primary70)
+    border: 0.1em solid var(--primary70);
 }
 
 .project-card:hover .project-card__inner {
@@ -58,6 +58,21 @@
 
 .project-card:hover .project-card__image img {
     transform: scale(1.05);
+}
+
+.project-card__wip {
+    position: absolute;
+    top: 0.75rem;
+    right: 0.75rem;
+    z-index: 2;
+    padding: 0.2rem 0.6rem;
+    border-radius: 15px;
+    background: var(--background90);
+    border: 1px solid var(--primary70);
+    color: var(--text);
+    font-size: 0.7rem;
+    letter-spacing: 1px;
+    font-weight: 600;
 }
 
 .project-card__title {
@@ -318,4 +333,3 @@
     opacity: 0;
     transition: opacity 0.2s ease;
 }
-

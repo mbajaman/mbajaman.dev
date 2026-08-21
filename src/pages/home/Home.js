@@ -1,4 +1,5 @@
 import React from 'react'
+import { ProfileProvider } from '@context/ProfileContext'
 
 // Import components
 import Navbar from '@components/navbar/Navbar'
@@ -12,17 +13,18 @@ import About from '@sections/about/About'
 
 import './Home.css'
 
-
 const Home = () => {
     return (
-        <div id="home" className="home-container">
-            <Navbar />
-            <Hero />
-            <Skills />
-            <Work />
-            <About />
-            <Footer />
-        </div>
+        <ProfileProvider>
+            <div id="home" className="home-container">
+                <Navbar />
+                <Hero />
+                <Skills />
+                <Work />
+                <About />
+                <Footer />
+            </div>
+        </ProfileProvider>
     )
 }
 
