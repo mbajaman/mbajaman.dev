@@ -1,91 +1,21 @@
 {
     "projects": [
         {
-            "name": "Trial Date Calculator",
-            "description": "A tool to automate calendar invites/reminders for important deadlines leading up to the trial date.",
+            "id": "maplestudy",
+            "name": "MapleStudy",
+            "description": "A cozy productivity game built in MapleStory Worlds as part of the MSW Creator Program.",
             "details": [
-                "In-house tool built using Sharepoint Online and Power Automate for a law firm.",
-                "Hosted on a local Flask server.",
-                "Automated hour long process of setting up calendar invites and Outlook tasks down to 5 minutes."
+                "Project details and links will be updated here after the game has been published!"
             ],
             "images": [
-                "assets/project-media/trialdatecalc/trialdatecalc.jpg"
+                "assets/project-media/maplestudy/maplestudy.png"
             ],
-            "tags": ["Python", "Flask", "SPO", "Power Automate"]
+            "tags": ["Lua", "MapleStory Worlds", "Cozy", "Productivity"],
+            "wip": true,
+            "roles": { "gamedev": 98, "swe": 40, "it": 0, "ai": 0, "web": 0 }
         },
         {
-            "name": "NIDS",
-            "description": "A Network Intrusion Detection System created using Python and machine learning.",
-            "details": [
-                "Researched and added code for Sequential Feature Selection.",
-                "Added K-Neighbors Classifier as one of the classification models.",
-                "Worked on solving the facotrization issue on trained models.",
-                "Labelling task for malicious packets achieved f1-score of 99% accuracy while attack category classification achieved 55% accuracy."
-            ],
-            "images": [
-                "assets/project-media/nids/nids.png",
-                "assets/project-media/nids/nids-1.png",
-                "assets/project-media/nids/nids-2.png",
-                "assets/project-media/nids/nids-3.png",
-                "assets/project-media/nids/nids-4.png"
-            ],
-            "pdfLink": "data/NIDS.pdf",
-            "tags": ["Python", "Machine Learning"]
-        },
-        {
-            "name": "Sentiment Analysis",
-            "description": "A sentiment analysis tool created using Python and trained on the YELP dataset.",
-            "details": [
-                "Implemented a Naive Bayes model and reviewed its relevant literature.",
-                "Tuned and tested RoBERTa model.",
-                "Added pre-processing steps to the dataset to improve model performance."
-            ],
-            "images": [
-                "assets/project-media/sentiment/sentiment.jpg",
-                "assets/project-media/sentiment/sentiment-1.png"
-            ],
-            "pdfLink": "data/Sentiment Analysis.pdf",
-            "tags": ["Python", "Machine Learning"]
-        },
-        {
-            "name": "Windows Image Deployment",
-            "description": "Streamlined and optimized the deployment of Windows images as part of the Harper Grey LLP equipment refresh process.",
-            "details": [
-                "Reduced imaging time from 1 hour to 10 minutes.",
-                "Cleaned up and optimized package/software deployment process using PDQ.",
-                "Managed the deployment of over 200 computers and laptops at the firm."
-            ],
-            "images": [
-                "assets/project-media/wid/wid.jpg"
-            ],
-            "tags": ["Powershell", "Bash", "PDQ", "MDT"]
-        },
-        {
-            "name": "DMS Migration",
-            "description": "New document management system (DMS) end-user deployment for Harper Grey LLP.",
-            "details": [
-                "Creted Powershell scripts and PDQ packages to configure new DMS client for end-users to reduce manual work ensure minimum downtime.",
-                "Deployed to over 200 computers and laptops at the firm.",
-                "Trained and mentored end-users on how to use the new DMS system."
-            ],
-            "images": [
-                "assets/project-media/dms/dms.png"
-            ],
-            "tags": ["Powershell", "Active Directory", "PDQ"]
-        },
-        {
-            "name": "Adobe Cloud Licensing",
-            "description": "Acquisition and deployment of Adobe Cloud Licensing for Harper Grey LLP.",
-            "details": [
-                "Setup scripts and install packages to automate deployment for Adobe to end-users.",
-                "Handled license acquisition and allocation for 200+ users for a steady and controlled deployment process."
-            ],
-            "images": [
-                "assets/project-media/adobe/adobe.png"
-            ],
-            "tags": ["Powershell", "Active Directory", "PDQ"]
-        },
-        {
+            "id": "sad",
             "name": "SAD Game Engine",
             "description": "A game engine created using C++ and ECS architecture.",
             "details": [
@@ -107,9 +37,11 @@
                 "assets/project-media/sad/sad-4.png"
             ],
             "githubLink": "https://github.com/mbajaman/SAD",
-            "tags": ["C++", "Game Engine", "Shaders"]
+            "tags": ["C++", "Game Engine", "Shaders"],
+            "roles": { "gamedev": 95, "swe": 90, "ai": 0, "it": 0, "web": 0 }
         },
         {
+            "id": "illume",
             "name": "Illume",
             "description": "A visually story rich game that follows the story of a girl and the future of the forest.",
             "details": [
@@ -131,7 +63,243 @@
             "itchLink": "https://tmrocket.itch.io/illume",
             "githubLink": "https://github.com/TM-Rocket/Illume",
             "youtubeLink": "https://www.youtube.com/watch?v=e1dXPF0bLwg",
-            "tags": ["C#", "Unity", "Level Design", "Storytelling"]
+            "tags": ["C#", "Unity", "Level Design", "Storytelling"],
+            "roles": { "gamedev": 85, "swe": 20, "ai": 0, "it": 0, "web": 0 }
+        },
+        {
+            "id": "bianbeat",
+            "name": "Bian Beat",
+            "description": "Bian Beat is a rhythm game that's played with the expressions you make! Smile, frown, scowl, and pogface to the beat. Webcam required.",
+            "details": [
+                "Developed the beatmap system to sync masks to the music.",
+                "Implemented game loop logic to handle the game state and transitions.",
+                "Worked on adding UI assets to the game to improve the user experience."
+            ],
+            "images": [
+                "assets/project-media/bianbeat/bianbeat-logo.png",
+                "assets/project-media/bianbeat/bianbeat-1.png",
+                "assets/project-media/bianbeat/bianbeat-2.png",
+                "assets/project-media/bianbeat/bianbeat-3.png",
+                "assets/project-media/bianbeat/bianbeat-4.png"
+            ],
+            "webLink": "https://globalgamejam.org/games/2026/mask-game-5",
+            "tags": ["C#", "Unity", "Rhythm", "Game Jam", "Webcam"],
+            "roles": { "gamedev": 90, "ai": 40, "swe": 30, "it": 0, "web": 0 }
+        },
+        {
+            "id": "hypergoap",
+            "name": "HyperGOAP",
+            "description": "A simple open-world game created in UE5 showcasing procedural terrain generation and GOAP AI.",
+            "details": [
+                "Developed procedural terrain generation using Markov Chain Models resulting in a dynamic open-world.",
+                "Implemented realistic tree objects and foliage placement techniques enhancing visual quality of the open-world.",
+                "Designed and integrated GOAP AI architecture for NPCs, allowing for a robust system for decision making."
+            ],
+            "images": [
+                "assets/project-media/hypergoap/hgoap-ai.png",
+                "assets/project-media/hypergoap/hgoap-ai2.png",
+                "assets/project-media/hypergoap/hgoap-markov-pcg-1.png",
+                "assets/project-media/hypergoap/hgoap-markov-pcg-2.png"
+            ],
+            "githubLink": "https://github.com/mbajaman/HyperGoap",
+            "tags": ["C++", "UE5", "PCG", "AI"],
+            "roles": { "gamedev": 85, "ai": 95, "swe": 70, "it": 0, "web": 0 }
+        },
+        {
+            "id": "focusbreakout",
+            "name": "Focus Breakout",
+            "description": "A 3D adventure game where you play as a target orb trying to survive and escape the aim trainer simulation.",
+            "details": [
+                "Set in a simulation of a target training game.",
+                "3 levels of varying difficulty.",
+                "Puzzle and obstacle solving."
+            ],
+            "images": [
+                "assets/project-media/focusbreakout/fb-logo.png",
+                "assets/project-media/focusbreakout/fb-menu.png",
+                "assets/project-media/focusbreakout/fb-intro.png",
+                "assets/project-media/focusbreakout/fb-lvl1.png",
+                "assets/project-media/focusbreakout/fb-lvl2.png",
+                "assets/project-media/focusbreakout/fb-lvl2-1.png",
+                "assets/project-media/focusbreakout/fb-score.png"
+            ],
+            "itchLink": "https://mbajaman.itch.io/focus-breakout",
+            "githubLink": "https://github.com/mbajaman/FocusBreakout",
+            "youtubeLink": "https://www.youtube.com/watch?v=ah-MSnVxhL4",
+            "tags": ["C#", "Unity", "Level Design", "Action"],
+            "roles": { "gamedev": 80, "swe": 20, "ai": 0, "it": 0, "web": 0 }
+        },
+        {
+            "id": "octopations",
+            "name": "Octopations",
+            "description": "A Jackbox-style party game created for the Global Game Jam 2024.",
+            "details": [
+                "Players take turns convincing the Hiring Manager (an octopus) that they are PERFECT for the job based on their past experiences.",
+                "A UI based party game create in UE5.",
+                "UI elements created using Unreal's UMG.",
+                "Gameplay mechanics created using Blueprints."
+            ],
+            "images": [
+                "assets/project-media/octopations/octopations.png",
+                "assets/project-media/octopations/octopations-1.png",
+                "assets/project-media/octopations/octopations-2.png"
+            ],
+            "webLink": "https://globalgamejam.org/games/2024/octopations-4",
+            "tags": ["C++", "UE5", "Party", "Game Jam"],
+            "roles": { "gamedev": 75, "swe": 15, "ai": 0, "it": 0, "web": 0 }
+        },
+        {
+            "id": "cownado",
+            "name": "Cownado",
+            "description": "An action-arcade game where you move cows to safety during a ridiculous storm. Created for the Brackeys Game Jam 2024.",
+            "details": [
+                "A 2D action-arcade game created in Godot.",
+                "Gameplay mechanics created using GDScript."
+            ],
+            "images": [
+                "assets/project-media/cownado/cownado.png",
+                "assets/project-media/cownado/cownado-1.png",
+                "assets/project-media/cownado/cownado-2.png",
+                "assets/project-media/cownado/cownado-3.png"
+            ],
+            "itchLink": "https://jake-pauls.itch.io/cownado",
+            "githubLink": "https://github.com/20TB-ZipBomb/BGJ2024",
+            "tags": ["GDScript", "Godot", "Party", "Game Jam"],
+            "roles": { "gamedev": 70, "swe": 10, "ai": 0, "it": 0, "web": 0 }
+        },
+        {
+            "id": "hamstars",
+            "name": "Hamstars",
+            "description": "Compete with up to 4 friends as a hamster in this fast-paced peanut hoarding brawl. Created during the Town One Game Jam, May 2022.",
+            "details": [
+                "Winner of the Town One Artisan Award 🎨",
+                "Created using Unity",
+                "Hop in a hamster ball and squash the competition.",
+                "Collect and hoard peanuts before time runs out."
+            ],
+            "images": [
+                "assets/project-media/hamstars/hamstars.png",
+                "assets/project-media/hamstars/hamstars-1.png",
+                "assets/project-media/hamstars/hamstars-2.png",
+                "assets/project-media/hamstars/hamstars-3.png"
+            ],
+            "githubLink": "https://github.com/jake-pauls/Hamstars/tree/develop",
+            "itchLink": "https://jake-pauls.itch.io/hamstars?secret=VC7My4gAvWGomMn0pWjmA0heJQ",
+            "tags": ["C#", "Unity", "Game Jam"],
+            "roles": { "gamedev": 65, "swe": 10, "ai": 0, "it": 0, "web": 0 }
+        },
+        {
+            "id": "portfolio",
+            "name": "mbajaman.dev",
+            "description": "This site - a React single-page portfolio with role-targeted views, deployed to GitHub Pages.",
+            "details": [
+                "Built with React and react-router-dom, using a profile system to retarget the site per role.",
+                "Client-side routing on GitHub Pages via the spa-github-pages redirect pattern.",
+                "Separate staging and production deploy pipelines driven by npm scripts."
+            ],
+            "images": ["assets/site-image.png"],
+            "githubLink": "https://github.com/mbajaman/mbajaman.dev",
+            "webLink": "https://mbajaman.dev",
+            "tags": ["React", "JavaScript", "CSS", "GitHub Pages"],
+            "roles": { "web": 100, "swe": 55, "gamedev": 0, "it": 20, "ai": 0 }
+        },
+
+        {
+            "id": "trialdatecalc",
+            "name": "Trial Date Calculator",
+            "description": "A tool to automate calendar invites/reminders for important deadlines leading up to the trial date.",
+            "details": [
+                "In-house tool built using Sharepoint Online and Power Automate for a law firm.",
+                "Hosted on a local Flask server.",
+                "Automated hour long process of setting up calendar invites and Outlook tasks down to 5 minutes."
+            ],
+            "images": [
+                "assets/project-media/trialdatecalc/trialdatecalc.jpg"
+            ],
+            "tags": ["Python", "Flask", "SPO", "Power Automate"],
+            "roles": { "it": 100, "swe": 80, "web": 75, "gamedev": 0, "ai": 0 }
+        },
+        {
+            "id": "wid",
+            "name": "Windows Image Deployment",
+            "description": "Streamlined and optimized the deployment of Windows images as part of the Harper Grey LLP equipment refresh process.",
+            "details": [
+                "Reduced imaging time from 1 hour to 10 minutes.",
+                "Cleaned up and optimized package/software deployment process using PDQ.",
+                "Managed the deployment of over 200 computers and laptops at the firm."
+            ],
+            "images": [
+                "assets/project-media/wid/wid.jpg"
+            ],
+            "tags": ["Powershell", "Bash", "PDQ", "MDT"],
+            "roles": { "it": 95, "swe": 0, "web": 0, "gamedev": 0, "ai": 0 }
+        },
+        {
+            "id": "dms",
+            "name": "DMS Migration",
+            "description": "New document management system (DMS) end-user deployment for Harper Grey LLP.",
+            "details": [
+                "Created Powershell scripts and PDQ packages to configure new DMS client for end-users to reduce manual work ensure minimum downtime.",
+                "Deployed to over 200 computers and laptops at the firm.",
+                "Trained and mentored end-users on how to use the new DMS system."
+            ],
+            "images": [
+                "assets/project-media/dms/dms.png"
+            ],
+            "tags": ["Powershell", "Active Directory", "PDQ"],
+            "roles": { "it": 90, "swe": 0, "web": 0, "gamedev": 0, "ai": 0 }
+        },
+        {
+            "id": "adobe",
+            "name": "Adobe Cloud Licensing",
+            "description": "Acquisition and deployment of Adobe Cloud Licensing for Harper Grey LLP.",
+            "details": [
+                "Setup scripts and install packages to automate deployment for Adobe to end-users.",
+                "Handled license acquisition and allocation for 200+ users for a steady and controlled deployment process."
+            ],
+            "images": [
+                "assets/project-media/adobe/adobe.png"
+            ],
+            "tags": ["Powershell", "Active Directory", "PDQ"],
+            "roles": { "it": 85, "swe": 0, "web": 0, "gamedev": 0, "ai": 0 }
+        },
+        {
+            "id": "nids",
+            "name": "NIDS",
+            "description": "A Network Intrusion Detection System created using Python and machine learning.",
+            "details": [
+                "Researched and added code for Sequential Feature Selection.",
+                "Added K-Neighbors Classifier as one of the classification models.",
+                "Worked on solving the factorization issue on trained models.",
+                "Labelling task for malicious packets achieved f1-score of 99% accuracy while attack category classification achieved 55% accuracy."
+            ],
+            "images": [
+                "assets/project-media/nids/nids.png",
+                "assets/project-media/nids/nids-1.png",
+                "assets/project-media/nids/nids-2.png",
+                "assets/project-media/nids/nids-3.png",
+                "assets/project-media/nids/nids-4.png"
+            ],
+            "pdfLink": "data/NIDS.pdf",
+            "tags": ["Python", "Machine Learning"],
+            "roles": { "ai": 100, "swe": 75, "it": 70, "gamedev": 0, "web": 0 }
+        },
+        {
+            "id": "sentiment",
+            "name": "Sentiment Analysis",
+            "description": "A sentiment analysis tool created using Python and trained on the YELP dataset.",
+            "details": [
+                "Implemented a Naive Bayes model and reviewed its relevant literature.",
+                "Tuned and tested RoBERTa model.",
+                "Added pre-processing steps to the dataset to improve model performance."
+            ],
+            "images": [
+                "assets/project-media/sentiment/sentiment.jpg",
+                "assets/project-media/sentiment/sentiment-1.png"
+            ],
+            "pdfLink": "data/Sentiment Analysis.pdf",
+            "tags": ["Python", "Machine Learning"],
+            "roles": { "ai": 95, "swe": 70, "it": 0, "gamedev": 0, "web": 0 }
         }
     ]
 }

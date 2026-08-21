@@ -1,10 +1,10 @@
 import React, { useState } from 'react'
 import './Project.css'
-import projectsData from '@data/projects.json'
+import { useProfile } from '@context/ProfileContext'
 import ProjectModal from '@components/modal/ProjectModal'
 
 const Project = () => {
-    const { projects } = projectsData
+    const { projects } = useProfile()
     const [selectedProject, setSelectedProject] = useState(null)
     
     // Function to get image URL dynamically
@@ -30,9 +30,10 @@ const Project = () => {
                 {projects.map((project) => (
                     <div 
                         className="project-card"
-                        key={project.name}
+                        key={project.id}
                     >
                         <div className="project-card__inner">
+                            {project.wip && <span className="project-card__wip">WIP</span>}
                             <div className="project-card__image">
                                 <img 
                                     src={project.images[0] ? getImageUrl(project.images[0]) : 'https://placehold.co/600x400/png'}

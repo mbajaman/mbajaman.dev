@@ -1,43 +1,11 @@
 import React, { useRef } from 'react';
 import './Skills.css';
+import { useProfile } from '@context/ProfileContext'
 
 const Skills = () => {
     const skillsGridRef = useRef(null);
 
-    const skillCards = [
-
-        {
-            svgName: "code",
-            title: "Software Engineering",
-            description: "Building scalable and efficient software solutions"
-        },
-        {
-            svgName: "globe",
-            title: "Web Development",
-            description: "Crafting modern and responsive web applications"
-        },
-        {
-            svgName: "server",
-            title: "IT Solutions",
-            description: "Building and securing IT applications"
-        },
-        {
-            svgName: "bot",
-            title: "AI Programming",
-            description: "Training and deploying AI models"
-        },
-        {
-            svgName: "gamepad",
-            title: "Game Development",
-            description: "Developing engaging gaming experiences"
-        },
-        // {
-        //     svgName: "tetris",
-        //     title: "Game Design",
-        //     description: "Prototyping and designing engaging games"
-        // },
-
-    ];
+    const { skills: skillCards } = useProfile()
 
     // const scroll = (direction) => {
     //     if (skillsGridRef.current) {

@@ -1,5 +1,6 @@
 import React from 'react'
 import './About.css'
+import { useProfile } from '@context/ProfileContext'
 
 // Import selfie 📱
 import placeholderImage from '@assets/profile.jpg'
@@ -20,6 +21,7 @@ import indiaFlag from '@assets/flag-icons/flag_in.svg';
 import uaeFlag from '@assets/flag-icons/flag_ae.svg';
 
 const About = () => {
+    const { profile } = useProfile()
     return (
         <div id="about" className="about-container section-tracker">
         <section id="about" className="about-content">
@@ -31,7 +33,7 @@ const About = () => {
             
             <div className="about-text">
                 <h1 className="section-title">About Me</h1>
-                <p className="about-subtitle">Software Engineer | Game Developer | IT Expert</p>
+                <p className="about-subtitle">{profile.aboutSubtitle}</p>
                 
                 <div className="about-description">
                     <p>

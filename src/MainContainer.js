@@ -6,7 +6,8 @@ const MainContainer = () => {
   return (
     <Router basename='/'>
       <Routes>
-        <Route exact path="/" element={<Home />} />
+        <Route path="/" element={<Home />} />
+        <Route path="/:profileId" element={<Home />} />
       </Routes>
     </Router>
   );

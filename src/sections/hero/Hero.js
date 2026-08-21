@@ -1,6 +1,7 @@
 import React from 'react'
 import { Link } from 'react-router-dom'
 import { TypeAnimation } from 'react-type-animation'
+import { useProfile } from '@context/ProfileContext'
 import './Hero.css'
 
 // Import Illustration
@@ -15,22 +16,10 @@ import itchIcon from '@assets/social-icons/itchio.svg'
 
 
 const Hero = () => {
-    const roles = [
-        // 'Game Programmer',
-        // 2000,
-        'Software Engineer',
-        2000,
-        'Web Developer',
-        2000,
-        // 'Unity Developer',
-        // 2000,
-        // 'UE5 Developer',
-        // 2000,
-        // 'Level Designer',
-        // 2000,
-        'AI Programmer',
-        2000
-    ];
+    const { profile } = useProfile()
+
+    //TypeAnimation wants [text, pauseMs, text, pauseMs, ...]
+    const roles = profile.typewriterRoles.flatMap((role) => [role, 2000])
 
     const socialLinks = [
         { name: 'Email', url: 'mailto:mohammed_bajaman@hotmail.com', title: 'mohammed_bajaman@hotmail.com', icon: emailIcon },
@@ -58,10 +47,7 @@ const Hero = () => {
                         />
                     </span>
                 </h2>
-                <p className="hero-subtitle">
-                    Passionate about creating elegant solutions through code. 
-                    Specializing in software engineering, game development, and IT solutions.
-                </p>
+                <p className="hero-subtitle">{profile.heroSubtitle}</p>
                 <div className="hero-social-links-vertical">
                     {socialLinks.map((link) => (
                         <a 

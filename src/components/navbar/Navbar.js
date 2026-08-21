@@ -1,9 +1,16 @@
-import React, { useState, useEffect } from 'react'
+import React, { useState, useEffect, useRef } from 'react'
 import './Navbar.css'
+import { Link } from 'react-router-dom'
+import { profileList } from '@config/profiles'
+import { useProfile } from '@context/ProfileContext'
 
 /* TODO: Create light/dark mode toggle*/
 /* TODO: Create a download Resume button on Navbar (desktop & mobile) */
 const Navbar = () => {
+    const { profileId, profile } = useProfile()
+    const [isProfileOpen, setIsProfileOpen] = useState(false)
+    const profileRef = useRef(null)
+
     const [isMenuOpen, setIsMenuOpen] = useState(false);
     const [activeSection, setActiveSection] = useState('home');
 
@@ -33,7 +40,35 @@ const Navbar = () => {
         return () => window.removeEventListener('scroll', handleScroll);
     }, []);
 
+    useEffect(() => {
+        if (!isProfileOpen) return;
+
+        const handlePointerDown = (event) => {
+            if (profileRef.current && !profileRef.current.contains(event.target)) {
+                setIsProfileOpen(false);
+            }
+        };
+        const handleKeyDown = (event) => {
+            if (event.key === 'Escape') setIsProfileOpen(false);
+        };
+
+        document.addEventListener('mousedown', handlePointerDown);
+        document.addEventListener('keydown', handleKeyDown);
+        return () => {
+            document.removeEventListener('mousedown', handlePointerDown);
+            document.removeEventListener('keydown', handleKeyDown);
+        };
+    }, [isProfileOpen]);
+
     const toggleMenu = () => setIsMenuOpen(!isMenuOpen);
+
+    // Each profile renders a different project set, so keep the incoming
+    // view at the top rather than inheriting the previous scroll offset.
+    const handleProfileSelect = () => {
+        setIsProfileOpen(false);
+        setIsMenuOpen(false);
+        window.scrollTo({ top: 0, behavior: 'smooth' });
+    };
 
     const handleNavClick = (id) => {
         setIsMenuOpen(false);
@@ -74,17 +109,45 @@ const Navbar = () => {
                     <span className='navbar__logo'>MOHAMMED BAJAMAN</span>
                 </div>
                 
-                <div className='navbar__menu'>
-                    {navItems.map((item) => (
-                        <div 
-                            key={item.label}
-                            onClick={() => handleNavClick(item.id)}
-                            className={`navbar__menu-item ${activeSection === item.id ? 'active' : ''}`}
-                            style={{ cursor: 'pointer' }}
+                <div className='navbar__desktop-right'>
+                    <div className='navbar__menu'>
+                        {navItems.map((item) => (
+                            <div 
+                                key={item.label}
+                                onClick={() => handleNavClick(item.id)}
+                                className={`navbar__menu-item ${activeSection === item.id ? 'active' : ''}`}
+                                style={{ cursor: 'pointer' }}
+                            >
+                                {item.label}
+                            </div>
+                        ))}
+                    </div>
+
+                    <div className='navbar__profile' ref={profileRef}>
+                        <button
+                            className='navbar__profile-trigger'
+                            onClick={() => setIsProfileOpen((open) => !open)}
+                            aria-expanded={isProfileOpen}
+                            aria-haspopup="true"
+                            aria-label={`Viewing as ${profile.label}. Change profile`}
                         >
-                            {item.label}
+                            {profile.label}
+                            <span className={`navbar__profile-caret ${isProfileOpen ? 'open' : ''}`} />
+                        </button>
+                        <div className={`navbar__profile-menu ${isProfileOpen ? 'active' : ''}`}>
+                            <span className='navbar__profile-heading'>Viewing As</span>
+                            {profileList.map((option) => (
+                                <Link
+                                    key={option.id}
+                                    to={`/${option.id}`}
+                                    className={`navbar__profile-option ${option.id === profileId ? 'active' : ''}`}
+                                    onClick={handleProfileSelect}
+                                >
+                                    {option.label}
+                                </Link>
+                            ))}
                         </div>
-                    ))}
+                    </div>
                 </div>
             </div>
 
@@ -118,6 +181,22 @@ const Navbar = () => {
                             {item.label}
                         </div>
                     ))}
+
+                    <div className='navbar__mobile-profiles'>
+                        <span className='navbar__profile-heading'>VIEWING AS</span>
+                        <div className='navbar__mobile-profiles-options'>
+                            {profileList.map((option) => (
+                                <Link
+                                    key={option.id}
+                                    to={`/${option.id}`}
+                                    className={`navbar__profile-option ${option.id === profileId ? 'active' : ''}`}
+                                    onClick={handleProfileSelect}
+                                >
+                                    {option.label}
+                                </Link>
+                            ))}
+                        </div>
+                    </div>
                 </div>
             </div>
         </nav>

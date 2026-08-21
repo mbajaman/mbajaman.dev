@@ -66,6 +66,104 @@
     color: var(--primary90);
 }
 
+/* Profile switcher */
+.navbar__desktop-right {
+    display: flex;
+    align-items: center;
+    gap: 2.5rem;
+}
+
+.navbar__profile {
+    position: relative;
+}
+
+.navbar__profile-trigger {
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.4rem 0.9rem;
+    border-radius: 20px;
+    border: 1px solid var(--primary35);
+    background: transparent;
+    color: var(--text);
+    font-family: inherit;
+    font-size: 0.9rem;
+    letter-spacing: 0.5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.navbar__profile-trigger:hover {
+    border-color: var(--primary90);
+    color: var(--primary90);
+}
+
+.navbar__profile-caret {
+    width: 0;
+    height: 0;
+    border-left: 4px solid transparent;
+    border-right: 4px solid transparent;
+    border-top: 5px solid currentColor;
+    transition: transform 0.3s ease;
+}
+
+.navbar__profile-caret.open {
+    transform: rotate(180deg);
+}
+
+.navbar__profile-menu {
+    position: absolute;
+    top: calc(100% + 0.75rem);
+    right: 0;
+    min-width: 11rem;
+    display: flex;
+    flex-direction: column;
+    padding: 0.5rem;
+    border-radius: 10px;
+    background: var(--background90);
+    backdrop-filter: blur(30px);
+    border: 1px solid var(--primary35);
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.25);
+    opacity: 0;
+    visibility: hidden;
+    transform: translateY(-8px);
+    transition: opacity 0.25s ease, transform 0.25s ease, visibility 0.25s ease;
+}
+
+.navbar__profile-menu.active {
+    opacity: 1;
+    visibility: visible;
+    transform: translateY(0);
+}
+
+.navbar__profile-heading {
+    display: block;
+    padding: 0.25rem 0.75rem 0.5rem;
+    font-size: 0.7rem;
+    letter-spacing: 1.5px;
+    color: var(--text50);
+}
+
+.navbar__profile-option {
+    display: block;
+    padding: 0.5rem 0.75rem;
+    border-radius: 6px;
+    text-decoration: none;
+    color: var(--text);
+    font-size: 0.95rem;
+    transition: background 0.2s ease, color 0.2s ease;
+}
+
+.navbar__profile-option:hover {
+    background: var(--primary25);
+    color: var(--primary90);
+}
+
+.navbar__profile-option.active {
+    background: var(--primary15);
+    color: var(--primary90);
+}
+
 /* Mobile Navigation */
 .navbar__mobile {
     display: none;
@@ -161,6 +259,31 @@
     color: var(--primary90);
 }
 
+.navbar__mobile-profiles {
+    width: 100%;
+    margin-top: 2rem;
+    padding-top: 1.5rem;
+    border-top: 1px solid var(--text15);
+}
+
+.navbar__mobile-profiles-options {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.6rem;
+    margin-top: 0.9rem;
+}
+
+.navbar__mobile-profiles .navbar__profile-heading {
+    padding: 0;
+}
+
+.navbar__mobile-profiles .navbar__profile-option {
+    padding: 0.45rem 1rem;
+    border: 1px solid var(--primary35);
+    border-radius: 20px;
+    font-size: 1rem;
+}
+
 /* Add an overlay when menu is open */
 .navbar__mobile-overlay {
     position: fixed;
@@ -184,6 +307,21 @@
 @media (max-width: 1440px) {
     .navbar__desktop {
         padding: 0 10vw;
+    }
+}
+
+/* Desktop nav still shows down to 768px, so tighten it before it crowds */
+@media (max-width: 1100px) {
+    .navbar__desktop-right {
+        gap: 1.25rem;
+    }
+
+    .navbar__menu {
+        gap: 1.25rem;
+    }
+
+    .navbar__menu-item {
+        font-size: 1rem;
     }
 }
 
